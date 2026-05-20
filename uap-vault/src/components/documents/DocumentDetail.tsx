@@ -21,6 +21,7 @@ interface DocumentDetailProps {
 export default function DocumentDetail({ doc, relatedDocs, locale }: DocumentDetailProps) {
   const t = useTranslations('document');
   const [contentLang, setContentLang] = useState<'pt' | 'en'>(locale);
+  const [isPlaying, setIsPlaying] = useState(false);
 
   const title = contentLang === 'pt' ? doc.title_pt : doc.title_en;
   const summary = contentLang === 'pt' ? doc.summary_pt : doc.summary_en;
@@ -46,8 +47,42 @@ export default function DocumentDetail({ doc, relatedDocs, locale }: DocumentDet
         <div className="lg:col-span-2 space-y-8">
           
           {/* Media Container (Video Player or Thumbnail) */}
-          <div className="border border-[#c8a96e]/10 rounded overflow-hidden bg-black/40 aspect-video relative">
-            {doc.media_type === 'video' || doc.video_url?.endsWith('.mp4') ? (
+          <div className="border border-[#c8a96e]/10 rounded overflow-hidden bg-black/40 aspect-video relative group">
+            {doc.media_type === 'video' && !doc.video_url ? (
+              <>
+                <img
+                  src={doc.thumbnail_url || undefined}
+                  alt={title}
+                  className={`w-full h-full object-cover transition-all duration-700 ${isPlaying ? 'opacity-10 blur-sm scale-105' : 'opacity-80'}`}
+                />
+                {!isPlaying ? (
+                  <div className="absolute inset-0 flex items-center justify-center">
+                    <button 
+                      onClick={() => setIsPlaying(true)}
+                      className="bg-black/60 border border-[#c8a96e]/50 text-[#c8a96e] rounded-full p-5 hover:bg-[#c8a96e]/20 hover:scale-110 transition-all backdrop-blur-sm shadow-[0_0_20px_rgba(200,169,110,0.2)]"
+                    >
+                      <svg className="w-8 h-8 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
+                    </button>
+                  </div>
+                ) : (
+                  <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-[#cc3333] font-mono select-none bg-black/60 backdrop-blur-sm z-10 border border-[#cc3333]/30">
+                    <ShieldAlert className="h-12 w-12 mb-4 animate-pulse" />
+                    <span className="text-sm sm:text-base font-bold tracking-[0.2em] uppercase mb-2 text-center">
+                      SECURITY CLEARANCE REJECTED
+                    </span>
+                    <span className="text-[10px] sm:text-xs text-[#cc3333]/70 tracking-widest text-center max-w-md mt-2 leading-relaxed">
+                      RAW VIDEO FEED FOR {doc.official_id || 'THIS RECORD'} IS REDACTED OR SECURED ON A RESTRICTED DOD SERVER. ONLY THE DECLASSIFIED THUMBNAIL FRAME IS AVAILABLE.
+                    </span>
+                    <button 
+                      onClick={() => setIsPlaying(false)}
+                      className="mt-8 text-[10px] uppercase tracking-widest border border-[#cc3333]/30 px-6 py-2.5 rounded hover:bg-[#cc3333]/10 transition-colors text-[#cc3333]"
+                    >
+                      Return to Thumbnail
+                    </button>
+                  </div>
+                )}
+              </>
+            ) : doc.media_type === 'video' || doc.video_url?.endsWith('.mp4') ? (
               <video
                 src={doc.video_url || (doc.thumbnail_url ? doc.thumbnail_url.replace(/\.(jpg|jpeg|png)$/i, '.mp4') : undefined)}
                 className="w-full h-full object-contain bg-black"
