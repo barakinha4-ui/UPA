@@ -1,0 +1,15 @@
+# Configurações de ambiente (Segurança)
+.env
+.env.local
+.env.*
+
+# Pastas não relacionadas ou geradas
+Mareagora/
+node_modules/
+__pycache__/
+logs/
+data/
+
+# Windows
+Thumbs.db
+Desktop.ini

@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "documents": "Documents",
+    "map": "Map",
+    "search": "Search",
+    "about": "About"
+  },
+  "home": {
+    "hero_title": "Declassified UAP Documents",
+    "hero_subtitle": "Official public archive of the Pentagon",
+    "total_documents": "{count} documents available",
+    "explore_map": "Explore on Map"
+  },
+  "document": {
+    "agency": "Agency",
+    "incident_date": "Incident Date",
+    "location": "Location",
+    "media_type": "Type",
+    "classification": "Classification",
+    "view_original": "View original document",
+    "summary": "Summary",
+    "analysis": "Analysis",
+    "related": "Related documents",
+    "unresolved": "Unresolved",
+    "resolved_natural": "Resolved — Natural Phenomenon",
+    "resolved_manmade": "Resolved — Man-made Origin",
+    "unknown": "Unknown"
+  },
+  "filters": {
+    "all_agencies": "All agencies",
+    "all_types": "All types",
+    "all_years": "All years",
+    "sort_newest": "Newest",
+    "sort_oldest": "Oldest",
+    "sort_views": "Most viewed"
+  },
+  "search": {
+    "placeholder": "Search UAP documents...",
+    "language_toggle": "Search in Portuguese",
+    "no_results": "No results found for \"{query}\"",
+    "results": "{count} result(s) for \"{query}\""
+  }
+}

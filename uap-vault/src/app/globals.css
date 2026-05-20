@@ -1,0 +1,77 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #0a0a0f;
+  --color-foreground: #e8e8e0;
+  --color-accent: #c8a96e;
+  --color-accent-muted: rgba(200, 169, 110, 0.2);
+  --color-danger: #cc3333;
+  --font-sans: var(--font-sans), sans-serif;
+  --font-serif: var(--font-serif), serif;
+  --font-mono: var(--font-mono), monospace;
+}
+
+:root {
+  --background: #0a0a0f;
+  --foreground: #e8e8e0;
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans);
+}
+
+/* Custom glow animations and utilities */
+.glow-border {
+  border: 1px solid rgba(200, 169, 110, 0.2);
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.glow-border:hover {
+  border-color: rgba(200, 169, 110, 0.6);
+  box-shadow: 0 0 15px rgba(200, 169, 110, 0.1);
+}
+
+.stamped-badge {
+  text-transform: uppercase;
+  letter-spacing: 0.15em;
+  font-family: var(--font-mono);
+  border: 1px solid currentColor;
+  padding: 0.125rem 0.5rem;
+  font-weight: bold;
+}
+
+/* Shimmer Loading Skeleton */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.skeleton-shimmer {
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.03) 25%, rgba(255, 255, 255, 0.08) 50%, rgba(255, 255, 255, 0.03) 75%);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite linear;
+}
+
+/* Custom Scrollbar for Intelligence terminal feel */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0a0a0f;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(200, 169, 110, 0.3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(200, 169, 110, 0.6);
+}

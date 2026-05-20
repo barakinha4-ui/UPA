@@ -1,0 +1,43 @@
+{
+  "nav": {
+    "documents": "Documentos",
+    "map": "Mapa",
+    "search": "Buscar",
+    "about": "Sobre"
+  },
+  "home": {
+    "hero_title": "Documentos UAP Desclassificados",
+    "hero_subtitle": "Arquivo público oficial do Pentágono",
+    "total_documents": "{count} documentos disponíveis",
+    "explore_map": "Explorar no Mapa"
+  },
+  "document": {
+    "agency": "Agência",
+    "incident_date": "Data do Incidente",
+    "location": "Localização",
+    "media_type": "Tipo",
+    "classification": "Classificação",
+    "view_original": "Ver documento original",
+    "summary": "Resumo",
+    "analysis": "Análise",
+    "related": "Documentos relacionados",
+    "unresolved": "Não Resolvido",
+    "resolved_natural": "Resolvido — Fenômeno Natural",
+    "resolved_manmade": "Resolvido — Origem Humana",
+    "unknown": "Desconhecido"
+  },
+  "filters": {
+    "all_agencies": "Todas as agências",
+    "all_types": "Todos os tipos",
+    "all_years": "Todos os anos",
+    "sort_newest": "Mais recente",
+    "sort_oldest": "Mais antigo",
+    "sort_views": "Mais visualizado"
+  },
+  "search": {
+    "placeholder": "Buscar documentos UAP...",
+    "language_toggle": "Buscar em inglês",
+    "no_results": "Nenhum resultado encontrado para \"{query}\"",
+    "results": "{count} resultado(s) para \"{query}\""
+  }
+}
