@@ -1,4 +1,4 @@
-import { createClient } from './server';
+import { createStaticClient } from './static';
 import { UapDocument, UapRelease, VaultStats } from '@/types/database';
 
 export async function getDocuments(filters: {
@@ -9,7 +9,7 @@ export async function getDocuments(filters: {
   page?: number;
   orderBy?: 'newest' | 'oldest' | 'views';
 } = {}) {
-  const supabase = createClient();
+  const supabase = createStaticClient();
   const limit = 20;
   const page = filters.page || 1;
   const from = (page - 1) * limit;
@@ -57,7 +57,7 @@ export async function getDocuments(filters: {
 }
 
 export async function getDocumentBySlug(slug: string) {
-  const supabase = createClient();
+  const supabase = createStaticClient();
   
   // Fetch document
   const { data, error } = await supabase
@@ -83,7 +83,7 @@ export async function getDocumentBySlug(slug: string) {
 }
 
 export async function searchDocuments(queryStr: string, lang: 'pt' | 'en', page = 1) {
-  const supabase = createClient();
+  const supabase = createStaticClient();
   const limit = 20;
   const offset = (page - 1) * limit;
 
@@ -103,7 +103,7 @@ export async function searchDocuments(queryStr: string, lang: 'pt' | 'en', page 
 }
 
 export async function getGeoDocuments() {
-  const supabase = createClient();
+  const supabase = createStaticClient();
   const { data, error } = await supabase
     .from('documents')
     .select('*')
@@ -120,7 +120,7 @@ export async function getGeoDocuments() {
 }
 
 export async function getRelatedDocuments(slug: string, agency: string, year: number) {
-  const supabase = createClient();
+  const supabase = createStaticClient();
   // Fetch related docs (same agency or same year, excluding current)
   const { data, error } = await supabase
     .from('documents')
@@ -139,7 +139,7 @@ export async function getRelatedDocuments(slug: string, agency: string, year: nu
 }
 
 export async function getStats(): Promise<VaultStats> {
-  const supabase = createClient();
+  const supabase = createStaticClient();
   const { data, error } = await supabase.rpc('get_vault_stats');
 
   if (error) {
@@ -151,7 +151,7 @@ export async function getStats(): Promise<VaultStats> {
 }
 
 export async function getReleases() {
-  const supabase = createClient();
+  const supabase = createStaticClient();
   const { data, error } = await supabase
     .from('releases')
     .select('*')
