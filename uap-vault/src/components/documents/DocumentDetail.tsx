@@ -47,7 +47,17 @@ export default function DocumentDetail({ doc, relatedDocs, locale }: DocumentDet
           
           {/* Media Container (Video Player or Thumbnail) */}
           <div className="border border-[#c8a96e]/10 rounded overflow-hidden bg-black/40 aspect-video relative">
-            {doc.video_url ? (
+            {doc.media_type === 'video' || doc.video_url?.endsWith('.mp4') ? (
+              <video
+                src={doc.video_url || (doc.thumbnail_url ? doc.thumbnail_url.replace(/\.(jpg|jpeg|png)$/i, '.mp4') : undefined)}
+                className="w-full h-full object-contain bg-black"
+                controls
+                autoPlay
+                muted
+                loop
+                poster={doc.thumbnail_url || undefined}
+              />
+            ) : doc.video_url ? (
               <iframe
                 src={doc.video_url}
                 className="w-full h-full"
