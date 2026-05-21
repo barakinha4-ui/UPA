@@ -11,6 +11,7 @@ import { motion } from 'framer-motion';
 import { MapPin, Calendar, Eye, ShieldAlert, FileText, Globe, ExternalLink, Tag } from 'lucide-react';
 import { getVideoUrl } from '@/lib/uap-video-overrides';
 
+import { dvidsVideoIds } from '@/lib/dvids-map';
 const MiniMap = dynamic(() => import('@/components/map/MiniMap'), { ssr: false });
 
 interface DocumentDetailProps {
@@ -52,79 +53,115 @@ export default function DocumentDetail({ doc, relatedDocs, locale }: DocumentDet
           
           {/* Media Container (Video Player or Thumbnail) */}
           <div className="border border-[#c8a96e]/10 rounded overflow-hidden bg-black/40 aspect-video relative group">
-            {doc.media_type === 'video' && !resolvedVideoUrl ? (
-              <>
-                <img
-                  src={doc.thumbnail_url || undefined}
-                  alt={title}
-                  className={`w-full h-full object-cover transition-all duration-700 ${isPlaying ? 'opacity-10 blur-sm scale-105' : 'opacity-80'}`}
-                />
-                {!isPlaying ? (
-                  <div className="absolute inset-0 flex items-center justify-center">
-                    <button 
-                      onClick={() => setIsPlaying(true)}
-                      className="bg-black/60 border border-[#c8a96e]/50 text-[#c8a96e] rounded-full p-5 hover:bg-[#c8a96e]/20 hover:scale-110 transition-all backdrop-blur-sm shadow-[0_0_20px_rgba(200,169,110,0.2)]"
-                    >
-                      <svg className="w-8 h-8 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
-                    </button>
-                  </div>
-                ) : (
-                  <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-[#cc3333] font-mono select-none bg-black/60 backdrop-blur-sm z-10 border border-[#cc3333]/30">
-                    <ShieldAlert className="h-12 w-12 mb-4 animate-pulse" />
-                    <span className="text-sm sm:text-base font-bold tracking-[0.2em] uppercase mb-2 text-center">
-                      SECURITY CLEARANCE REJECTED
-                    </span>
-                    <span className="text-[10px] sm:text-xs text-[#cc3333]/70 tracking-widest text-center max-w-md mt-2 leading-relaxed">
-                      RAW VIDEO FEED FOR {doc.official_id || 'THIS RECORD'} IS REDACTED OR SECURED ON A RESTRICTED DOD SERVER. ONLY THE DECLASSIFIED THUMBNAIL FRAME IS AVAILABLE.
-                    </span>
-                    <button 
-                      onClick={() => setIsPlaying(false)}
-                      className="mt-8 text-[10px] uppercase tracking-widest border border-[#cc3333]/30 px-6 py-2.5 rounded hover:bg-[#cc3333]/10 transition-colors text-[#cc3333]"
-                    >
-                      Return to Thumbnail
-                    </button>
-                  </div>
-                )}
-              </>
-            ) : resolvedVideoUrl && (resolvedVideoUrl.includes('youtube.com') || resolvedVideoUrl.includes('youtu.be') || resolvedVideoUrl.includes('vimeo.com')) ? (
-              <iframe
-                src={resolvedVideoUrl}
-                className="w-full h-full"
-                allowFullScreen
-                allow="autoplay; encrypted-media; picture-in-picture"
-                title={title}
-              />
-            ) : doc.media_type === 'video' || resolvedVideoUrl?.endsWith('.mp4') ? (
-              <video
-                src={resolvedVideoUrl || (doc.thumbnail_url ? doc.thumbnail_url.replace(/\.(jpg|jpeg|png)$/i, '.mp4') : undefined)}
-                className="w-full h-full object-contain bg-black"
-                controls
-                autoPlay
-                muted
-                loop
-                poster={doc.thumbnail_url || undefined}
-              />
-            ) : resolvedVideoUrl ? (
-              <iframe
-                src={resolvedVideoUrl}
-                className="w-full h-full"
-                allowFullScreen
-                title={title}
-              />
-            ) : doc.thumbnail_url ? (
-              <img
-                src={doc.thumbnail_url}
-                alt={title}
-                className="w-full h-full object-cover opacity-80"
-              />
-            ) : (
-              <div className="w-full h-full flex flex-col items-center justify-center p-8 text-[#e8e8e0]/20 select-none">
-                <ShieldAlert className="h-12 w-12 text-[#cc3333]/40 mb-3" />
-                <span className="font-mono text-xs tracking-widest uppercase text-[#cc3333]/50">
-                  CLASSIFIED // RECORD VISUALS SECURED
-                </span>
-              </div>
-            )}
+            {(() => {
+              const dvidsId = doc.official_id ? dvidsVideoIds[doc.official_id] : null;
+
+              if (dvidsId) {
+                return (
+                  <iframe
+                    src={`https://www.dvidshub.net/video/embed/${dvidsId}`}
+                    className="w-full h-full"
+                    allowFullScreen
+                    allow="autoplay; fullscreen"
+                    title={title}
+                  />
+                );
+              }
+
+              if (doc.media_type === 'video' && !resolvedVideoUrl) {
+                return (
+                  <>
+                    <img
+                      src={doc.thumbnail_url || undefined}
+                      alt={title}
+                      className={`w-full h-full object-cover transition-all duration-700 ${isPlaying ? 'opacity-10 blur-sm scale-105' : 'opacity-80'}`}
+                    />
+                    {!isPlaying ? (
+                      <div className="absolute inset-0 flex items-center justify-center">
+                        <button 
+                          onClick={() => setIsPlaying(true)}
+                          className="bg-black/60 border border-[#c8a96e]/50 text-[#c8a96e] rounded-full p-5 hover:bg-[#c8a96e]/20 hover:scale-110 transition-all backdrop-blur-sm shadow-[0_0_20px_rgba(200,169,110,0.2)]"
+                        >
+                          <svg className="w-8 h-8 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
+                        </button>
+                      </div>
+                    ) : (
+                      <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-[#cc3333] font-mono select-none bg-black/60 backdrop-blur-sm z-10 border border-[#cc3333]/30">
+                        <ShieldAlert className="h-12 w-12 mb-4 animate-pulse" />
+                        <span className="text-sm sm:text-base font-bold tracking-[0.2em] uppercase mb-2 text-center">
+                          SECURITY CLEARANCE REJECTED
+                        </span>
+                        <span className="text-[10px] sm:text-xs text-[#cc3333]/70 tracking-widest text-center max-w-md mt-2 leading-relaxed">
+                          RAW VIDEO FEED FOR {doc.official_id || 'THIS RECORD'} IS REDACTED OR SECURED ON A RESTRICTED DOD SERVER. ONLY THE DECLASSIFIED THUMBNAIL FRAME IS AVAILABLE.
+                        </span>
+                        <button 
+                          onClick={() => setIsPlaying(false)}
+                          className="mt-8 text-[10px] uppercase tracking-widest border border-[#cc3333]/30 px-6 py-2.5 rounded hover:bg-[#cc3333]/10 transition-colors text-[#cc3333]"
+                        >
+                          Return to Thumbnail
+                        </button>
+                      </div>
+                    )}
+                  </>
+                );
+              }
+
+              if (resolvedVideoUrl && (resolvedVideoUrl.includes('youtube.com') || resolvedVideoUrl.includes('youtu.be') || resolvedVideoUrl.includes('vimeo.com'))) {
+                return (
+                  <iframe
+                    src={resolvedVideoUrl}
+                    className="w-full h-full"
+                    allowFullScreen
+                    allow="autoplay; encrypted-media; picture-in-picture"
+                    title={title}
+                  />
+                );
+              }
+
+              if (doc.media_type === 'video' || resolvedVideoUrl?.endsWith('.mp4')) {
+                return (
+                  <video
+                    src={resolvedVideoUrl || (doc.thumbnail_url ? doc.thumbnail_url.replace(/\.(jpg|jpeg|png)$/i, '.mp4') : undefined)}
+                    className="w-full h-full object-contain bg-black"
+                    controls
+                    autoPlay
+                    muted
+                    loop
+                    poster={doc.thumbnail_url || undefined}
+                  />
+                );
+              }
+
+              if (resolvedVideoUrl) {
+                return (
+                  <iframe
+                    src={resolvedVideoUrl}
+                    className="w-full h-full"
+                    allowFullScreen
+                    title={title}
+                  />
+                );
+              }
+
+              if (doc.thumbnail_url) {
+                return (
+                  <img
+                    src={doc.thumbnail_url}
+                    alt={title}
+                    className="w-full h-full object-cover opacity-80"
+                  />
+                );
+              }
+
+              return (
+                <div className="w-full h-full flex flex-col items-center justify-center p-8 text-[#e8e8e0]/20 select-none">
+                  <ShieldAlert className="h-12 w-12 text-[#cc3333]/40 mb-3" />
+                  <span className="font-mono text-xs tracking-widest uppercase text-[#cc3333]/50">
+                    CLASSIFIED // RECORD VISUALS SECURED
+                  </span>
+                </div>
+              );
+            })()}
 
             {/* Float Badge */}
             <span className="absolute bottom-4 left-4 font-mono text-[9px] text-[#cc3333] border border-[#cc3333]/30 px-2 py-0.5 rounded bg-black/80 select-none">

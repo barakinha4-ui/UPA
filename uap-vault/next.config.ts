@@ -4,7 +4,16 @@ import createNextIntlPlugin from "next-intl/plugin";
 const withNextIntl = createNextIntlPlugin();
 
 const nextConfig: NextConfig = {
-  /* config options here */
+  images: {
+    remotePatterns: [
+      {
+        protocol: 'https',
+        hostname: 'www.war.gov',
+        pathname: '/portals/**',
+      },
+    ],
+    unoptimized: true,
+  },
 };
 
 export default withNextIntl(nextConfig);
