@@ -82,6 +82,13 @@ export default function DocumentDetail({ doc, relatedDocs, locale }: DocumentDet
                   </div>
                 )}
               </>
+            ) : doc.video_url && (doc.video_url.includes('youtube.com') || doc.video_url.includes('youtu.be') || doc.video_url.includes('vimeo.com')) ? (
+              <iframe
+                src={doc.video_url}
+                className="w-full h-full"
+                allowFullScreen
+                title={title}
+              />
             ) : doc.media_type === 'video' || doc.video_url?.endsWith('.mp4') ? (
               <video
                 src={doc.video_url || (doc.thumbnail_url ? doc.thumbnail_url.replace(/\.(jpg|jpeg|png)$/i, '.mp4') : undefined)}
