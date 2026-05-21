@@ -9,6 +9,7 @@ import { AGENCY_COLORS, CLASSIFICATION_COLORS, MEDIA_ICONS } from './DocumentCar
 import DocumentCard from './DocumentCard';
 import { motion } from 'framer-motion';
 import { MapPin, Calendar, Eye, ShieldAlert, FileText, Globe, ExternalLink, Tag } from 'lucide-react';
+import { getVideoUrl } from '@/lib/uap-video-overrides';
 
 const MiniMap = dynamic(() => import('@/components/map/MiniMap'), { ssr: false });
 
@@ -26,6 +27,9 @@ export default function DocumentDetail({ doc, relatedDocs, locale }: DocumentDet
   const title = contentLang === 'pt' ? doc.title_pt : doc.title_en;
   const summary = contentLang === 'pt' ? doc.summary_pt : doc.summary_en;
   const analysis = contentLang === 'pt' ? doc.analysis_pt : doc.analysis_en;
+
+  // Resolve the best available video URL — real UAP videos override broken DB values
+  const resolvedVideoUrl = getVideoUrl(doc.official_id, doc.video_url);
 
   const agencyStyle = AGENCY_COLORS[doc.agency] || AGENCY_COLORS.OTHER;
   const classStyle = CLASSIFICATION_COLORS[doc.classification] || CLASSIFICATION_COLORS.unknown;
@@ -48,7 +52,7 @@ export default function DocumentDetail({ doc, relatedDocs, locale }: DocumentDet
           
           {/* Media Container (Video Player or Thumbnail) */}
           <div className="border border-[#c8a96e]/10 rounded overflow-hidden bg-black/40 aspect-video relative group">
-            {doc.media_type === 'video' && !doc.video_url ? (
+            {doc.media_type === 'video' && !resolvedVideoUrl ? (
               <>
                 <img
                   src={doc.thumbnail_url || undefined}
@@ -82,16 +86,17 @@ export default function DocumentDetail({ doc, relatedDocs, locale }: DocumentDet
                   </div>
                 )}
               </>
-            ) : doc.video_url && (doc.video_url.includes('youtube.com') || doc.video_url.includes('youtu.be') || doc.video_url.includes('vimeo.com')) ? (
+            ) : resolvedVideoUrl && (resolvedVideoUrl.includes('youtube.com') || resolvedVideoUrl.includes('youtu.be') || resolvedVideoUrl.includes('vimeo.com')) ? (
               <iframe
-                src={doc.video_url}
+                src={resolvedVideoUrl}
                 className="w-full h-full"
                 allowFullScreen
+                allow="autoplay; encrypted-media; picture-in-picture"
                 title={title}
               />
-            ) : doc.media_type === 'video' || doc.video_url?.endsWith('.mp4') ? (
+            ) : doc.media_type === 'video' || resolvedVideoUrl?.endsWith('.mp4') ? (
               <video
-                src={doc.video_url || (doc.thumbnail_url ? doc.thumbnail_url.replace(/\.(jpg|jpeg|png)$/i, '.mp4') : undefined)}
+                src={resolvedVideoUrl || (doc.thumbnail_url ? doc.thumbnail_url.replace(/\.(jpg|jpeg|png)$/i, '.mp4') : undefined)}
                 className="w-full h-full object-contain bg-black"
                 controls
                 autoPlay
@@ -99,9 +104,9 @@ export default function DocumentDetail({ doc, relatedDocs, locale }: DocumentDet
                 loop
                 poster={doc.thumbnail_url || undefined}
               />
-            ) : doc.video_url ? (
+            ) : resolvedVideoUrl ? (
               <iframe
-                src={doc.video_url}
+                src={resolvedVideoUrl}
                 className="w-full h-full"
                 allowFullScreen
                 title={title}
