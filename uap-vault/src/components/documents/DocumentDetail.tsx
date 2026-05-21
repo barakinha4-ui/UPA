@@ -153,8 +153,32 @@ export default function DocumentDetail({ doc, relatedDocs, locale }: DocumentDet
                 );
               }
 
+              if (doc.pdf_url) {
+                return (
+                  <iframe
+                    src={doc.pdf_url}
+                    className="w-full h-full bg-[#e8e8e0]"
+                    title={title}
+                  />
+                );
+              }
+
+              if (doc.media_type === 'pdf' || doc.media_type === 'document' || doc.media_type === 'mixed') {
+                return (
+                  <div className="w-full h-full flex flex-col items-center justify-center p-8 text-[#e8e8e0]/40 select-none bg-gradient-to-b from-black/60 to-[#c8a96e]/5">
+                    <FileText className="h-16 w-16 text-[#c8a96e]/40 mb-4" />
+                    <span className="font-mono text-sm font-bold tracking-[0.2em] uppercase text-[#c8a96e]/60 mb-2 text-center">
+                      {doc.agency} // TEXT RECORD
+                    </span>
+                    <span className="font-mono text-[10px] tracking-widest text-[#e8e8e0]/30 text-center max-w-sm leading-relaxed mt-2 uppercase">
+                      OFFICIAL DOCUMENT ON FILE. <br/> VISUAL MEDIA NOT INCLUDED OR NOT DIGITIZED.
+                    </span>
+                  </div>
+                );
+              }
+
               return (
-                <div className="w-full h-full flex flex-col items-center justify-center p-8 text-[#e8e8e0]/20 select-none">
+                <div className="w-full h-full flex flex-col items-center justify-center p-8 text-[#e8e8e0]/20 select-none bg-black/60">
                   <ShieldAlert className="h-12 w-12 text-[#cc3333]/40 mb-3" />
                   <span className="font-mono text-xs tracking-widest uppercase text-[#cc3333]/50">
                     CLASSIFIED // RECORD VISUALS SECURED
