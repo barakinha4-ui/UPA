@@ -1,8 +1,7 @@
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useRef } from 'react';
 import { MapContainer, TileLayer, CircleMarker, useMap } from 'react-leaflet';
-import L from 'leaflet';
 
 import 'leaflet/dist/leaflet.css';
 
@@ -13,7 +12,7 @@ interface MiniMapProps {
   agency: string;
 }
 
-const MINI_MAP_AGENCY_COLORS = {
+const MINI_MAP_AGENCY_COLORS: Record<string, string> = {
   DOW: '#60a5fa',
   FBI: '#fbbf24',
   NASA: '#22d3ee',
@@ -21,24 +20,39 @@ const MINI_MAP_AGENCY_COLORS = {
   ODNI: '#c084fc',
   STATE: '#34d399',
   DOE: '#fb923c',
+  USAF: '#38bdf8',
+  USN: '#818cf8',
+  FAB: '#4ade80',
+  SNI: '#22d3ee',
+  GEIPAN: '#a78bfa',
+  MOD: '#f87171',
+  CEFAA: '#fb923c',
+  DND: '#94a3b8',
   OTHER: '#9ca3af',
 };
 
 function ChangeView({ center }: { center: [number, number] }) {
   const map = useMap();
+  const prevCenter = useRef<[number, number] | null>(null);
   useEffect(() => {
-    map.setView(center, 8);
+    if (!prevCenter.current || prevCenter.current[0] !== center[0] || prevCenter.current[1] !== center[1]) {
+      map.setView(center, 8);
+      prevCenter.current = center;
+    }
   }, [center, map]);
   return null;
 }
 
 export default function MiniMap({ lat, lng, locationName, agency }: MiniMapProps) {
   const center: [number, number] = [lat, lng];
-  const color = MINI_MAP_AGENCY_COLORS[agency as keyof typeof MINI_MAP_AGENCY_COLORS] || MINI_MAP_AGENCY_COLORS.OTHER;
+  const color = MINI_MAP_AGENCY_COLORS[agency] || MINI_MAP_AGENCY_COLORS.OTHER;
+  // Unique key prevents Leaflet "container reused" error when navigating between documents
+  const mapKey = `minimap-${lat.toFixed(4)}-${lng.toFixed(4)}`;
 
   return (
     <div className="w-full h-48 rounded overflow-hidden border border-[#c8a96e]/10 bg-[#07070a] relative z-0">
       <MapContainer
+        key={mapKey}
         center={center}
         zoom={8}
         zoomControl={false}

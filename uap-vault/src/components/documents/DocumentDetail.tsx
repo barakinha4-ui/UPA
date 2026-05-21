@@ -70,39 +70,27 @@ export default function DocumentDetail({ doc, relatedDocs, locale }: DocumentDet
 
               if (doc.media_type === 'video' && !resolvedVideoUrl) {
                 return (
-                  <>
-                    <img
-                      src={doc.thumbnail_url || undefined}
-                      alt={title}
-                      className={`w-full h-full object-cover transition-all duration-700 ${isPlaying ? 'opacity-10 blur-sm scale-105' : 'opacity-80'}`}
-                    />
-                    {!isPlaying ? (
-                      <div className="absolute inset-0 flex items-center justify-center">
-                        <button 
-                          onClick={() => setIsPlaying(true)}
-                          className="bg-black/60 border border-[#c8a96e]/50 text-[#c8a96e] rounded-full p-5 hover:bg-[#c8a96e]/20 hover:scale-110 transition-all backdrop-blur-sm shadow-[0_0_20px_rgba(200,169,110,0.2)]"
-                        >
-                          <svg className="w-8 h-8 ml-1" fill="currentColor" viewBox="0 0 24 24"><path d="M8 5v14l11-7z" /></svg>
-                        </button>
-                      </div>
-                    ) : (
-                      <div className="absolute inset-0 flex flex-col items-center justify-center p-8 text-[#cc3333] font-mono select-none bg-black/60 backdrop-blur-sm z-10 border border-[#cc3333]/30">
-                        <ShieldAlert className="h-12 w-12 mb-4 animate-pulse" />
-                        <span className="text-sm sm:text-base font-bold tracking-[0.2em] uppercase mb-2 text-center">
-                          SECURITY CLEARANCE REJECTED
-                        </span>
-                        <span className="text-[10px] sm:text-xs text-[#cc3333]/70 tracking-widest text-center max-w-md mt-2 leading-relaxed">
-                          RAW VIDEO FEED FOR {doc.official_id || 'THIS RECORD'} IS REDACTED OR SECURED ON A RESTRICTED DOD SERVER. ONLY THE DECLASSIFIED THUMBNAIL FRAME IS AVAILABLE.
-                        </span>
-                        <button 
-                          onClick={() => setIsPlaying(false)}
-                          className="mt-8 text-[10px] uppercase tracking-widest border border-[#cc3333]/30 px-6 py-2.5 rounded hover:bg-[#cc3333]/10 transition-colors text-[#cc3333]"
-                        >
-                          Return to Thumbnail
-                        </button>
-                      </div>
+                  <div className="w-full h-full flex flex-col items-center justify-center p-8 text-[#e8e8e0]/40 select-none bg-gradient-to-b from-black/60 to-[#c8a96e]/5 relative">
+                    {doc.thumbnail_url && (
+                       <img
+                         src={doc.thumbnail_url}
+                         alt={title}
+                         className="absolute inset-0 w-full h-full object-cover opacity-20 blur-sm mix-blend-luminosity"
+                       />
                     )}
-                  </>
+                    <div className="relative z-10 flex flex-col items-center">
+                      <div className="h-16 w-16 mb-4 rounded-full border border-[#c8a96e]/20 flex items-center justify-center bg-black/40">
+                        <div className="w-8 h-1 bg-[#c8a96e]/40 rotate-45 absolute" />
+                        <Video className="h-8 w-8 text-[#c8a96e]/40" />
+                      </div>
+                      <span className="font-mono text-sm font-bold tracking-[0.2em] uppercase text-[#c8a96e]/60 mb-2 text-center">
+                        VIDEO NOT AVAILABLE
+                      </span>
+                      <span className="font-mono text-[10px] tracking-widest text-[#e8e8e0]/30 text-center max-w-sm leading-relaxed mt-2 uppercase">
+                        THE RAW VIDEO FEED FOR {doc.official_id || 'THIS RECORD'} IS NOT INCLUDED IN THE PUBLIC ARCHIVE OR HAS NOT BEEN DIGITIZED YET.
+                      </span>
+                    </div>
+                  </div>
                 );
               }
 

@@ -42,19 +42,16 @@ export default async function DocumentsPage({
 
   const totalPages = Math.ceil(count / 20);
 
-  // Helper to build pagination URL
+  // Helper to build pagination URL — use resolvedSearchParams (already awaited)
   const getPaginationUrl = (pageNum: number) => {
-    const params = new URLSearchParams();
-    
-    // Copy existing search params to preserve filters
-    Object.entries(searchParams).forEach(([key, val]) => {
+    const urlParams = new URLSearchParams();
+    Object.entries(resolvedSearchParams).forEach(([key, val]) => {
       if (key !== 'page' && typeof val === 'string') {
-        params.set(key, val);
+        urlParams.set(key, val);
       }
     });
-    
-    params.set('page', pageNum.toString());
-    return `/documentos?${params.toString()}`;
+    urlParams.set('page', pageNum.toString());
+    return `/documentos?${urlParams.toString()}`;
   };
 
   return (
