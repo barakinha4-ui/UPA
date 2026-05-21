@@ -16,15 +16,17 @@ interface IncidentMapProps {
   locale: 'pt' | 'en';
 }
 
-const MAP_AGENCY_COLORS = {
-  DOW: '#60a5fa',
-  FBI: '#fbbf24',
-  NASA: '#22d3ee',
-  CIA: '#f43f5e',
-  ODNI: '#c084fc',
-  STATE: '#34d399',
-  DOE: '#fb923c',
-  OTHER: '#9ca3af',
+const MAP_AGENCY_COLORS: Record<string, string> = {
+  DOW: '#60a5fa', // blue-400
+  FBI: '#fbbf24', // amber-400
+  NASA: '#22d3ee', // cyan-400
+  CIA: '#f43f5e', // rose-500
+  ODNI: '#c084fc', // purple-400
+  STATE: '#34d399', // emerald-400
+  DOE: '#fb923c', // orange-400
+  USAF: '#38bdf8', // sky-400
+  USN: '#818cf8', // indigo-400
+  OTHER: '#9ca3af', // gray-400
 };
 
 // Component to dynamically adjust map center/zoom based on filtered items

@@ -69,7 +69,7 @@ export default async function HomePage({
       {/* ── Stats Bar ── */}
       <section className="bg-[#07070a] border-b border-[#c8a96e]/10 py-8 relative z-10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-8 md:gap-4 text-center">
+          <div className="grid grid-cols-2 md:grid-cols-5 gap-8 md:gap-4 text-center">
             
             {/* Total Documents */}
             <div className="flex flex-col items-center">
@@ -77,6 +77,15 @@ export default async function HomePage({
               <span className="font-mono text-2xl font-bold text-[#e8e8e0]">{stats.total}</span>
               <span className="font-mono text-[9px] uppercase tracking-wider text-[#e8e8e0]/40 mt-1">
                 Declassified Docs
+              </span>
+            </div>
+
+            {/* Countries Covered */}
+            <div className="flex flex-col items-center">
+              <Globe className="h-5 w-5 text-[#c8a96e] mb-2" />
+              <span className="font-mono text-2xl font-bold text-[#e8e8e0]">{stats.countries}</span>
+              <span className="font-mono text-[9px] uppercase tracking-wider text-[#e8e8e0]/40 mt-1">
+                Countries
               </span>
             </div>
 
@@ -110,6 +119,38 @@ export default async function HomePage({
             </div>
 
           </div>
+        </div>
+      </section>
+
+      {/* ── Global Archive Flags Section ── */}
+      <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full relative z-10 border-b border-[#c8a96e]/10">
+        <div className="text-center mb-10">
+          <span className="font-mono text-[9px] font-bold tracking-[0.2em] text-[#c8a96e] uppercase">
+            {t('global_archive')}
+          </span>
+          <h2 className="font-serif text-2xl sm:text-3xl font-bold text-[#e8e8e0] mt-1">
+            {t('global_archive_title')}
+          </h2>
+        </div>
+        
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-4">
+          {[
+            { code: 'US', flag: '🇺🇸', name: locale === 'pt' ? 'EUA' : 'USA' },
+            { code: 'BR', flag: '🇧🇷', name: locale === 'pt' ? 'Brasil' : 'Brazil' },
+            { code: 'FR', flag: '🇫🇷', name: locale === 'pt' ? 'França' : 'France' },
+            { code: 'GB', flag: '🇬🇧', name: locale === 'pt' ? 'Reino Unido' : 'UK' },
+            { code: 'CA', flag: '🇨🇦', name: locale === 'pt' ? 'Canadá' : 'Canada' },
+            { code: 'CL', flag: '🇨🇱', name: locale === 'pt' ? 'Chile' : 'Chile' }
+          ].map(country => (
+            <Link 
+              key={country.code}
+              href={`/documentos?country=${country.code}`}
+              className="group flex flex-col items-center justify-center p-6 border border-[#c8a96e]/10 hover:border-[#c8a96e]/40 rounded bg-white/[0.01] hover:bg-white/[0.03] transition-all duration-300"
+            >
+              <span className="text-4xl mb-3 group-hover:scale-110 transition-transform">{country.flag}</span>
+              <span className="font-mono text-xs font-bold tracking-widest uppercase text-[#e8e8e0] group-hover:text-[#c8a96e] transition-colors">{country.name}</span>
+            </Link>
+          ))}
         </div>
       </section>
 

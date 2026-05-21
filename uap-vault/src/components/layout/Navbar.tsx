@@ -19,6 +19,8 @@ export default function Navbar() {
 
   const navItems = [
     { name: t('documents'), href: '/documentos' },
+    { name: t('sources'), href: '/fontes' },
+    { name: t('timeline'), href: '/timeline' },
     { name: t('map'), href: '/mapa' },
     { name: t('search'), href: '/busca' },
   ];

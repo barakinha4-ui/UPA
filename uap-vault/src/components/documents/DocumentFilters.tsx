@@ -5,8 +5,16 @@ import { usePathname, useRouter } from '@/lib/navigation';
 import { useTranslations } from 'next-intl';
 import { SlidersHorizontal, ArrowUpDown, RefreshCw, ChevronDown } from 'lucide-react';
 import { useState } from 'react';
+import { COUNTRIES } from '@/types/database';
 
-const AGENCIES = ['DOW', 'FBI', 'NASA', 'STATE', 'ODNI', 'DOE', 'USAF', 'USN', 'CIA', 'OTHER'];
+// Flatten agencies and programs from COUNTRIES + existing ones
+const AGENCIES = Array.from(new Set([
+  'DOW', 'FBI', 'NASA', 'STATE', 'ODNI', 'DOE', 'USAF', 'USN', 'CIA', 'OTHER',
+  ...COUNTRIES.flatMap(c => c.agencies)
+])).sort();
+
+const PROGRAMS = Array.from(new Set(COUNTRIES.flatMap(c => c.programs))).sort();
+
 const MEDIA_TYPES = ['video', 'pdf', 'image', 'document', 'mixed'];
 const CLASSIFICATIONS = ['unresolved', 'resolved_natural', 'resolved_manmade', 'unknown'];
 
@@ -22,6 +30,8 @@ export default function DocumentFilters() {
   const activeAgencies = searchParams.get('agency') ? searchParams.get('agency')!.split(',') : [];
   const activeMediaTypes = searchParams.get('mediaType') ? searchParams.get('mediaType')!.split(',') : [];
   const activeClassifications = searchParams.get('classification') ? searchParams.get('classification')!.split(',') : [];
+  const activeCountry = searchParams.get('country') ? searchParams.get('country')!.split(',') : [];
+  const activeProgram = searchParams.get('program') ? searchParams.get('program')!.split(',') : [];
   const activeYear = searchParams.get('year') || '';
   const activeSort = searchParams.get('orderBy') || 'newest';
 
@@ -55,6 +65,57 @@ export default function DocumentFilters() {
 
   const FilterSections = () => (
     <div className="space-y-6">
+      {/* Country Filter */}
+      <div>
+        <h4 className="font-mono text-xs font-bold uppercase tracking-wider text-[#c8a96e] mb-3">
+          {tDoc('country')}
+        </h4>
+        <div className="flex flex-wrap gap-2">
+          {COUNTRIES.map((country) => {
+            const isSelected = activeCountry.includes(country.code);
+            return (
+              <button
+                key={country.code}
+                onClick={() => handleMultiSelect('country', activeCountry, country.code)}
+                className={`flex items-center space-x-1 font-mono text-[10px] tracking-wider border rounded px-2.5 py-1 transition-colors ${
+                  isSelected
+                    ? 'border-[#c8a96e] text-[#c8a96e] bg-[#c8a96e]/10 font-bold'
+                    : 'border-[#e8e8e0]/10 text-[#e8e8e0]/60 hover:border-[#e8e8e0]/20 hover:text-[#e8e8e0]'
+                }`}
+              >
+                <span>{country.flag}</span>
+                <span>{country.code}</span>
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
+      {/* Program Filter */}
+      <div>
+        <h4 className="font-mono text-xs font-bold uppercase tracking-wider text-[#c8a96e] mb-3">
+          Program
+        </h4>
+        <div className="flex flex-wrap gap-2 max-h-32 overflow-y-auto pr-2 custom-scrollbar">
+          {PROGRAMS.map((program) => {
+            const isSelected = activeProgram.includes(program);
+            return (
+              <button
+                key={program}
+                onClick={() => handleMultiSelect('program', activeProgram, program)}
+                className={`font-mono text-[9px] tracking-wider border rounded px-2 py-0.5 transition-colors ${
+                  isSelected
+                    ? 'border-[#c8a96e] text-[#c8a96e] bg-[#c8a96e]/10 font-bold'
+                    : 'border-[#e8e8e0]/10 text-[#e8e8e0]/60 hover:border-[#e8e8e0]/20 hover:text-[#e8e8e0]'
+                }`}
+              >
+                {program.replace(/_/g, ' ')}
+              </button>
+            );
+          })}
+        </div>
+      </div>
+
       {/* Agency Filter */}
       <div>
         <h4 className="font-mono text-xs font-bold uppercase tracking-wider text-[#c8a96e] mb-3">

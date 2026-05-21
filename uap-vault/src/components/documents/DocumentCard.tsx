@@ -3,7 +3,7 @@
 import { useState } from 'react';
 import { useTranslations } from 'next-intl';
 import { Link } from '@/lib/navigation';
-import { UapDocument } from '@/types/database';
+import { UapDocument, COUNTRIES } from '@/types/database';
 import { motion } from 'framer-motion';
 import { FileText, Video, Image as ImageIcon, File, FolderOpen, MapPin, Calendar, Eye } from 'lucide-react';
 
@@ -12,7 +12,7 @@ interface DocumentCardProps {
   locale: 'pt' | 'en';
 }
 
-export const AGENCY_COLORS = {
+export const AGENCY_COLORS: Record<string, { text: string; border: string; bg: string }> = {
   DOW: { text: 'text-blue-400', border: 'border-blue-400/30', bg: 'bg-blue-950/20' },
   FBI: { text: 'text-amber-400', border: 'border-amber-400/30', bg: 'bg-amber-950/20' },
   NASA: { text: 'text-cyan-400', border: 'border-cyan-400/30', bg: 'bg-cyan-950/20' },
@@ -83,8 +83,12 @@ export default function DocumentCard({ doc, locale }: DocumentCardProps) {
         )}
         
         {/* Floating Agency stamp on top-left of image */}
-        <span className={`absolute top-3 left-3 font-mono text-[10px] font-bold tracking-widest uppercase border px-2 py-0.5 rounded shadow-md z-10 ${agencyStyle.text} ${agencyStyle.border} ${agencyStyle.bg}`}>
-          {doc.agency}
+        <span className={`absolute top-3 left-3 flex items-center space-x-1 font-mono text-[10px] font-bold tracking-widest uppercase border px-2 py-0.5 rounded shadow-md z-10 ${agencyStyle.text} ${agencyStyle.border} ${agencyStyle.bg}`}>
+          {(() => {
+            const countryInfo = COUNTRIES.find(c => c.code === doc.country);
+            return countryInfo?.flag ? <span className="mr-1">{countryInfo.flag}</span> : null;
+          })()}
+          <span>{doc.agency}</span>
         </span>
 
         {/* Media type float indicator */}

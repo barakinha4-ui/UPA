@@ -1,12 +1,36 @@
 import { createStaticClient } from './static';
-import { UapDocument, UapRelease, VaultStats } from '@/types/database';
+import { UapDocument, UapRelease, VaultStats, COUNTRIES } from '@/types/database';
 
 import pursueData from '../pursue-data.json';
+
+// Will be populated once global-uap-data.json is generated
+let globalData: UapDocument[] = [];
+try {
+  // Dynamic import workaround for JSON
+  globalData = require('../global-uap-data.json') as UapDocument[];
+} catch {
+  // File doesn't exist yet — that's fine during dev
+  globalData = [];
+}
+
+// Normalize pursue data: add country='US' and source_program='PURSUE' if missing
+const normalizedPursueData = (pursueData as UapDocument[]).map(d => ({
+  ...d,
+  country: d.country || 'US',
+  source_program: d.source_program || 'PURSUE',
+}));
+
+// Merge all data sources
+function getAllLocalDocs(): UapDocument[] {
+  return [...normalizedPursueData, ...globalData];
+}
 
 export async function getDocuments(filters: {
   agency?: string[];
   mediaType?: string[];
   classification?: string[];
+  country?: string[];
+  program?: string[];
   year?: number;
   page?: number;
   orderBy?: 'newest' | 'oldest' | 'views';
@@ -27,8 +51,16 @@ export async function getDocuments(filters: {
     console.error('Error fetching documents:', error);
   }
 
-  // Merge with local PURSUE data
-  let allDocs = [...(dbData || []), ...(pursueData as UapDocument[])];
+  // Merge with local data
+  let allDocs = [...(dbData || []).map((d: any) => ({ ...d, country: d.country || 'US', source_program: d.source_program || 'PURSUE' })), ...getAllLocalDocs()];
+
+  // Deduplicate by slug
+  const seen = new Set<string>();
+  allDocs = allDocs.filter(d => {
+    if (seen.has(d.slug)) return false;
+    seen.add(d.slug);
+    return true;
+  });
 
   // Apply filters
   if (filters.agency && filters.agency.length > 0) {
@@ -39,6 +71,12 @@ export async function getDocuments(filters: {
   }
   if (filters.classification && filters.classification.length > 0) {
     allDocs = allDocs.filter(d => filters.classification!.includes(d.classification));
+  }
+  if (filters.country && filters.country.length > 0) {
+    allDocs = allDocs.filter(d => filters.country!.includes(d.country || 'US'));
+  }
+  if (filters.program && filters.program.length > 0) {
+    allDocs = allDocs.filter(d => filters.program!.includes(d.source_program || 'PURSUE'));
   }
   if (filters.year) {
     allDocs = allDocs.filter(d => d.incident_year === filters.year);
@@ -56,7 +94,7 @@ export async function getDocuments(filters: {
       return new Date(b.created_at).getTime() - new Date(a.created_at).getTime();
     });
   } else {
-    // Default newest (by year, release_date, then created_at)
+    // Default newest
     allDocs.sort((a, b) => {
       if (a.incident_year !== b.incident_year) return (b.incident_year || 0) - (a.incident_year || 0);
       const dateA = a.release_date ? new Date(a.release_date).getTime() : 0;
@@ -75,7 +113,6 @@ export async function getDocuments(filters: {
 export async function getDocumentBySlug(slug: string) {
   const supabase = createStaticClient();
   
-  // Fetch document
   const { data, error } = await supabase
     .from('documents')
     .select('*')
@@ -83,14 +120,14 @@ export async function getDocumentBySlug(slug: string) {
     .eq('is_published', true)
     .maybeSingle();
 
-  const localDoc = (pursueData as UapDocument[]).find(d => d.slug === slug);
+  const localDoc = getAllLocalDocs().find(d => d.slug === slug);
   const foundDoc = localDoc || data;
 
   if (!foundDoc) {
     return null;
   }
 
-  // Increment view count atomic using the RPC we created (only if from DB)
+  // Increment view count (only if from DB)
   if (!localDoc) {
     try {
       await supabase.rpc('increment_view', { doc_slug: slug });
@@ -99,7 +136,7 @@ export async function getDocumentBySlug(slug: string) {
     }
   }
 
-  return foundDoc as UapDocument;
+  return { ...foundDoc, country: foundDoc.country || 'US', source_program: foundDoc.source_program || 'PURSUE' } as UapDocument;
 }
 
 export async function searchDocuments(queryStr: string, lang: 'pt' | 'en', page = 1) {
@@ -114,7 +151,7 @@ export async function searchDocuments(queryStr: string, lang: 'pt' | 'en', page 
     offset_n: offset
   });
 
-  const localFiltered = (pursueData as UapDocument[]).filter(d => {
+  const localFiltered = getAllLocalDocs().filter(d => {
     const q = queryStr.toLowerCase();
     if (lang === 'pt') {
       return (d.title_pt?.toLowerCase().includes(q) || d.summary_pt?.toLowerCase().includes(q) || d.location_name?.toLowerCase().includes(q));
@@ -123,7 +160,14 @@ export async function searchDocuments(queryStr: string, lang: 'pt' | 'en', page 
   });
 
   const allResults = [...(data || []), ...localFiltered];
-  return allResults.slice(offset, offset + limit) as UapDocument[];
+  // Deduplicate
+  const seen = new Set<string>();
+  const unique = allResults.filter(d => {
+    if (seen.has(d.slug)) return false;
+    seen.add(d.slug);
+    return true;
+  });
+  return unique.slice(offset, offset + limit) as UapDocument[];
 }
 
 export async function getGeoDocuments() {
@@ -135,14 +179,19 @@ export async function getGeoDocuments() {
     .not('lng', 'is', null)
     .eq('is_published', true);
 
-  const localGeo = (pursueData as UapDocument[]).filter(d => d.lat !== null && d.lng !== null);
+  const localGeo = getAllLocalDocs().filter(d => d.lat !== null && d.lng !== null && d.lat !== 0 && d.lng !== 0);
 
-  return [...(data || []), ...localGeo] as UapDocument[];
+  const all = [...(data || []), ...localGeo];
+  const seen = new Set<string>();
+  return all.filter(d => {
+    if (seen.has(d.slug)) return false;
+    seen.add(d.slug);
+    return true;
+  }) as UapDocument[];
 }
 
 export async function getRelatedDocuments(slug: string, agency: string, year: number) {
   const supabase = createStaticClient();
-  // Fetch related docs (same agency or same year, excluding current)
   const { data, error } = await supabase
     .from('documents')
     .select('*')
@@ -151,28 +200,32 @@ export async function getRelatedDocuments(slug: string, agency: string, year: nu
     .or(`agency.eq.${agency},incident_year.eq.${year}`)
     .limit(4);
 
-  const localRelated = (pursueData as UapDocument[]).filter(d => d.slug !== slug && (d.agency === agency || d.incident_year === year)).slice(0, 4);
+  const localRelated = getAllLocalDocs().filter(d => d.slug !== slug && (d.agency === agency || d.incident_year === year)).slice(0, 4);
   const allRelated = [...(data || []), ...localRelated];
-
-  return allRelated.slice(0, 4) as UapDocument[];
+  const seen = new Set<string>();
+  return allRelated.filter(d => {
+    if (seen.has(d.slug)) return false;
+    seen.add(d.slug);
+    return true;
+  }).slice(0, 4) as UapDocument[];
 }
 
 export async function getStats(): Promise<VaultStats> {
   const supabase = createStaticClient();
   const { data, error } = await supabase.rpc('get_vault_stats');
 
-  const allDocs = [...(pursueData as UapDocument[])];
+  const allDocs = getAllLocalDocs();
   
   let total = data?.total || 0;
-  let agenciesSet = new Set<string>();
-  if (data?.agencies) { /* We don't have the list of agencies from RPC easily, but let's recalculate */ }
+  const agenciesSet = new Set<string>();
+  const countriesSet = new Set<string>();
   let min_year = data?.min_year || 9999;
   let max_year = data?.max_year || 0;
 
-  // Recalculate full stats
   total += allDocs.length;
   allDocs.forEach(d => {
     agenciesSet.add(d.agency);
+    countriesSet.add(d.country || 'US');
     if (d.incident_year) {
       min_year = Math.min(min_year, d.incident_year);
       max_year = Math.max(max_year, d.incident_year);
@@ -182,9 +235,28 @@ export async function getStats(): Promise<VaultStats> {
   return { 
     total, 
     agencies: agenciesSet.size > (data?.agencies || 0) ? agenciesSet.size : Math.max(agenciesSet.size, data?.agencies || 0), 
+    countries: countriesSet.size,
     min_year: min_year === 9999 ? null : min_year, 
     max_year: max_year === 0 ? null : max_year 
   } as VaultStats;
+}
+
+// New: Get stats breakdown per country (for Sources page)
+export async function getGlobalStats() {
+  const allDocs = getAllLocalDocs();
+  
+  const byCountry: Record<string, number> = {};
+  allDocs.forEach(d => {
+    const c = d.country || 'US';
+    byCountry[c] = (byCountry[c] || 0) + 1;
+  });
+
+  return { byCountry, total: allDocs.length };
+}
+
+// New: Get all documents (for Timeline page)
+export async function getAllDocuments(): Promise<UapDocument[]> {
+  return getAllLocalDocs();
 }
 
 export async function getReleases() {
@@ -207,7 +279,6 @@ export async function getReleases() {
       created_at: '2026-05-08T00:00:00Z'
     });
   } else {
-    // Update count for release 1
     const r1 = releases.find(r => r.release_num === 1);
     if (r1) r1.doc_count += 162;
   }
@@ -217,7 +288,7 @@ export async function getReleases() {
       id: 'pursue-release-2',
       release_num: 2,
       title: 'PURSUE Release 02 — Tranche Pending',
-      released_at: new Date().toISOString(), // Use current date for sorting, but we'll show "Em breve" in UI
+      released_at: new Date().toISOString(),
       source_url: null,
       doc_count: 0,
       created_at: new Date().toISOString()

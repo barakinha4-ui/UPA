@@ -3,13 +3,19 @@
     "documents": "Documents",
     "map": "Map",
     "search": "Search",
-    "about": "About"
+    "about": "About",
+    "sources": "Sources",
+    "timeline": "Timeline"
   },
   "home": {
-    "hero_title": "Declassified UAP Documents",
-    "hero_subtitle": "Official public archive of the Pentagon",
+    "hero_title": "Global Declassified UAP Archive",
+    "hero_subtitle": "The world's most comprehensive bilingual portal of declassified UAP/UFO documents",
     "total_documents": "{count} documents available",
-    "explore_map": "Explore on Map"
+    "explore_map": "Explore on Map",
+    "global_archive": "// GLOBAL ARCHIVE",
+    "global_archive_title": "Documents by Country of Origin",
+    "explore_country": "Explore",
+    "docs_label": "documents"
   },
   "document": {
     "agency": "Agency",
@@ -24,12 +30,14 @@
     "unresolved": "Unresolved",
     "resolved_natural": "Resolved — Natural Phenomenon",
     "resolved_manmade": "Resolved — Man-made Origin",
-    "unknown": "Unknown"
+    "unknown": "Unknown",
+    "country": "Country"
   },
   "filters": {
     "all_agencies": "All agencies",
     "all_types": "All types",
     "all_years": "All years",
+    "all_countries": "All countries",
     "sort_newest": "Newest",
     "sort_oldest": "Oldest",
     "sort_views": "Most viewed"
@@ -39,5 +47,33 @@
     "language_toggle": "Search in Portuguese",
     "no_results": "No results found for \"{query}\"",
     "results": "{count} result(s) for \"{query}\""
+  },
+  "sources": {
+    "title": "Sources by Country",
+    "subtitle": "Government programs and agencies with declassified UAP documents",
+    "indexed": "indexed",
+    "program": "Program",
+    "agency_label": "Agency"
+  },
+  "timeline": {
+    "title": "Global UAP Timeline",
+    "subtitle": "Timeline of declassified UAP events since 1947",
+    "incident": "Incident",
+    "documents": "documents"
+  },
+  "cases": {
+    "title": "Case Detail",
+    "back": "Back to archive",
+    "key_facts": "Key Facts",
+    "evidence": "Evidence",
+    "related_docs": "Related Documents"
+  },
+  "countries": {
+    "US": "United States",
+    "BR": "Brazil",
+    "FR": "France",
+    "GB": "United Kingdom",
+    "CL": "Chile",
+    "CA": "Canada"
   }
 }

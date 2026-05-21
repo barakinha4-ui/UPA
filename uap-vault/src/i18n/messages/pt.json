@@ -3,13 +3,19 @@
     "documents": "Documentos",
     "map": "Mapa",
     "search": "Buscar",
-    "about": "Sobre"
+    "about": "Sobre",
+    "sources": "Fontes",
+    "timeline": "Cronologia"
   },
   "home": {
-    "hero_title": "Documentos UAP Desclassificados",
-    "hero_subtitle": "Arquivo público oficial do Pentágono",
+    "hero_title": "Arquivo Global de Documentos UAP",
+    "hero_subtitle": "O mais completo portal bilíngue de documentos UAP/OVNI desclassificados do mundo",
     "total_documents": "{count} documentos disponíveis",
-    "explore_map": "Explorar no Mapa"
+    "explore_map": "Explorar no Mapa",
+    "global_archive": "// ARQUIVO GLOBAL",
+    "global_archive_title": "Documentos por País de Origem",
+    "explore_country": "Explorar",
+    "docs_label": "documentos"
   },
   "document": {
     "agency": "Agência",
@@ -24,12 +30,14 @@
     "unresolved": "Não Resolvido",
     "resolved_natural": "Resolvido — Fenômeno Natural",
     "resolved_manmade": "Resolvido — Origem Humana",
-    "unknown": "Desconhecido"
+    "unknown": "Desconhecido",
+    "country": "País"
   },
   "filters": {
     "all_agencies": "Todas as agências",
     "all_types": "Todos os tipos",
     "all_years": "Todos os anos",
+    "all_countries": "Todos os países",
     "sort_newest": "Mais recente",
     "sort_oldest": "Mais antigo",
     "sort_views": "Mais visualizado"
@@ -39,5 +47,33 @@
     "language_toggle": "Buscar em inglês",
     "no_results": "Nenhum resultado encontrado para \"{query}\"",
     "results": "{count} resultado(s) para \"{query}\""
+  },
+  "sources": {
+    "title": "Fontes por País",
+    "subtitle": "Programas e agências governamentais com documentos UAP desclassificados",
+    "indexed": "indexados",
+    "program": "Programa",
+    "agency_label": "Agência"
+  },
+  "timeline": {
+    "title": "Cronologia UAP Global",
+    "subtitle": "Linha do tempo de eventos UAP desclassificados desde 1947",
+    "incident": "Incidente",
+    "documents": "documentos"
+  },
+  "cases": {
+    "title": "Caso Detalhado",
+    "back": "Voltar ao arquivo",
+    "key_facts": "Fatos-Chave",
+    "evidence": "Evidências",
+    "related_docs": "Documentos Relacionados"
+  },
+  "countries": {
+    "US": "Estados Unidos",
+    "BR": "Brasil",
+    "FR": "França",
+    "GB": "Reino Unido",
+    "CL": "Chile",
+    "CA": "Canadá"
   }
 }

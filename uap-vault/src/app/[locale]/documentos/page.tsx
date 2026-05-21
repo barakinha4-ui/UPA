@@ -23,6 +23,8 @@ export default async function DocumentsPage({
   const mediaTypeFilter = typeof resolvedSearchParams.mediaType === 'string' ? resolvedSearchParams.mediaType.split(',') : undefined;
   const classificationFilter = typeof resolvedSearchParams.classification === 'string' ? resolvedSearchParams.classification.split(',') : undefined;
   const yearFilter = typeof resolvedSearchParams.year === 'string' ? parseInt(resolvedSearchParams.year, 10) : undefined;
+  const countryFilter = typeof resolvedSearchParams.country === 'string' ? resolvedSearchParams.country.split(',') : undefined;
+  const programFilter = typeof resolvedSearchParams.program === 'string' ? resolvedSearchParams.program.split(',') : undefined;
   const orderByFilter = (resolvedSearchParams.orderBy as 'newest' | 'oldest' | 'views') || 'newest';
   const pageFilter = typeof resolvedSearchParams.page === 'string' ? parseInt(resolvedSearchParams.page, 10) : 1;
 
@@ -31,6 +33,8 @@ export default async function DocumentsPage({
     agency: agencyFilter,
     mediaType: mediaTypeFilter,
     classification: classificationFilter,
+    country: countryFilter,
+    program: programFilter,
     year: yearFilter,
     orderBy: orderByFilter,
     page: pageFilter,
