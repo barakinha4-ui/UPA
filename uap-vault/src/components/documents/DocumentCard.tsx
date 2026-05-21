@@ -7,6 +7,8 @@ import { UapDocument, COUNTRIES } from '@/types/database';
 import { motion } from 'framer-motion';
 import { FileText, Video, Image as ImageIcon, File, FolderOpen, MapPin, Calendar, Eye } from 'lucide-react';
 
+import { isFakePlaceholder } from '@/lib/uap-video-overrides';
+
 interface DocumentCardProps {
   doc: UapDocument;
   locale: 'pt' | 'en';
@@ -49,6 +51,9 @@ export default function DocumentCard({ doc, locale }: DocumentCardProps) {
   const classStyle = CLASSIFICATION_COLORS[doc.classification] || CLASSIFICATION_COLORS.unknown;
   const MediaIcon = MEDIA_ICONS[doc.media_type] || File;
 
+  // Filter out known fake placeholders
+  const hasValidThumbnail = doc.thumbnail_url && !isFakePlaceholder(doc.thumbnail_url);
+
   return (
     <motion.div
       whileHover={{ y: -4 }}
@@ -59,26 +64,26 @@ export default function DocumentCard({ doc, locale }: DocumentCardProps) {
       <div className="absolute inset-0 border border-transparent group-hover:border-[#c8a96e]/20 pointer-events-none transition-colors duration-300" />
       
       {/* Card Header / Thumbnail */}
-      <Link href={`/documentos/${doc.slug}`} className="relative block aspect-video overflow-hidden bg-black/40 border-b border-[#c8a96e]/10">
-        {!imgError && doc.thumbnail_url ? (
+      <Link href={`/documentos/${doc.slug}`} className="relative block aspect-video overflow-hidden bg-[#0a0a0c] border-b border-[#c8a96e]/10">
+        {!imgError && hasValidThumbnail ? (
           <img
-            src={doc.thumbnail_url}
+            src={doc.thumbnail_url!}
             alt={title}
             onError={() => setImgError(true)}
             className="w-full h-full object-cover opacity-60 group-hover:opacity-80 group-hover:scale-105 transition-all duration-500"
             loading="lazy"
           />
         ) : (
-          /* Declassified Target Placeholder */
-          <div className="w-full h-full flex flex-col items-center justify-center p-4 text-[#e8e8e0]/20 select-none relative">
-            <div className="absolute inset-0 border-2 border-dashed border-[#e8e8e0]/5 m-3 flex items-center justify-center">
-              <div className="w-12 h-12 border border-[#e8e8e0]/10 rounded-full flex items-center justify-center">
-                <div className="w-2 h-2 bg-[#cc3333]/30 rounded-full" />
-              </div>
+          /* Missing Thumbnail Fallback */
+          <div className="w-full h-full flex flex-col items-center justify-center p-4 text-[#e8e8e0]/40 select-none bg-gradient-to-b from-black/60 to-[#c8a96e]/5 relative overflow-hidden">
+            {/* Subtle background pattern */}
+            <div className="absolute inset-0 opacity-[0.03] bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-[#e8e8e0] to-transparent" />
+            <div className="relative z-10 flex flex-col items-center">
+              <MediaIcon className="h-8 w-8 text-[#c8a96e]/30 mb-2 group-hover:text-[#c8a96e]/50 transition-colors duration-300" />
+              <span className="font-mono text-[9px] tracking-[0.2em] uppercase text-[#c8a96e]/40">
+                {doc.agency} // RECORD
+              </span>
             </div>
-            <span className="font-mono text-[9px] tracking-widest uppercase text-[#cc3333]/50 border border-[#cc3333]/20 px-1.5 py-0.5 rounded bg-black/60 z-10">
-              DECLASSIFIED // NO IMAGES
-            </span>
           </div>
         )}
         

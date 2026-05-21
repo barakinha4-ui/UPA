@@ -23,7 +23,7 @@ export const UAP_VIDEO_OVERRIDES: Record<string, string> = {
  * Detects if a URL is a fake/procedurally-generated placeholder.
  * Fake DVIDS URLs: https://www.dvidshub.net/video/100000/uap  (sequential IDs ending in /uap)
  */
-function isFakePlaceholder(url: string): boolean {
+export function isFakePlaceholder(url: string): boolean {
   if (/dvidshub\.net\/video\/10[0-9]{4}\/uap/.test(url)) return true;
   if (/war\.gov\/.*placeholder/.test(url)) return true;
   return false;
