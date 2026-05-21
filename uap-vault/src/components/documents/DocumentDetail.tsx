@@ -8,7 +8,7 @@ import { UapDocument } from '@/types/database';
 import { AGENCY_COLORS, CLASSIFICATION_COLORS, MEDIA_ICONS } from './DocumentCard';
 import DocumentCard from './DocumentCard';
 import { motion } from 'framer-motion';
-import { MapPin, Calendar, Eye, ShieldAlert, FileText, Globe, ExternalLink, Tag } from 'lucide-react';
+import { MapPin, Calendar, Eye, ShieldAlert, FileText, Globe, ExternalLink, Tag, Video } from 'lucide-react';
 import { getVideoUrl } from '@/lib/uap-video-overrides';
 
 import { dvidsVideoIds } from '@/lib/dvids-map';
