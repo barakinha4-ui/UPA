@@ -35,6 +35,7 @@ export const UAP_VIDEO_OVERRIDES: Record<string, string> = {
  * - First checks the override map (known-good real UAP videos)
  * - Falls back to the database value if no override exists
  */
-export function getVideoUrl(officialId: string, dbVideoUrl: string | null | undefined): string | null {
+export function getVideoUrl(officialId: string | null | undefined, dbVideoUrl: string | null | undefined): string | null {
+  if (!officialId) return dbVideoUrl ?? null;
   return UAP_VIDEO_OVERRIDES[officialId] ?? dbVideoUrl ?? null;
 }
