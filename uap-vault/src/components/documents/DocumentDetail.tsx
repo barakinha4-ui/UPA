@@ -73,7 +73,7 @@ export default function DocumentDetail({ doc, relatedDocs, locale }: DocumentDet
                   <div className="w-full h-full flex flex-col items-center justify-center p-8 text-[#e8e8e0]/40 select-none bg-gradient-to-b from-black/60 to-[#c8a96e]/5 relative">
                     {doc.thumbnail_url && (
                        <img
-                         src={doc.thumbnail_url}
+                         src={doc.thumbnail_url.startsWith('https://www.war.gov/') ? doc.thumbnail_url.replace('https://www.war.gov/', '/api/proxy-war/') : doc.thumbnail_url}
                          alt={title}
                          className="absolute inset-0 w-full h-full object-cover opacity-20 blur-sm mix-blend-luminosity"
                        />
@@ -132,9 +132,13 @@ export default function DocumentDetail({ doc, relatedDocs, locale }: DocumentDet
               }
 
               if (doc.thumbnail_url) {
+                const proxiedThumb = doc.thumbnail_url.startsWith('https://www.war.gov/')
+                  ? doc.thumbnail_url.replace('https://www.war.gov/', '/api/proxy-war/')
+                  : doc.thumbnail_url;
+
                 return (
                   <img
-                    src={doc.thumbnail_url}
+                    src={proxiedThumb}
                     alt={title}
                     className="w-full h-full object-cover opacity-80"
                   />

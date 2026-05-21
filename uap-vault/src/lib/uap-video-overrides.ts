@@ -18,17 +18,6 @@ export const UAP_VIDEO_OVERRIDES: Record<string, string> = {
   // Pyramid UAP / USS Russell (July 2019, Pacific Ocean off San Diego)
   'DOW-UAP-PR26': 'https://www.youtube.com/embed/et9-uw0ThGU?autoplay=1&mute=1&rel=0',
 };
-
-/**
- * Detects if a URL is a fake/procedurally-generated placeholder.
- * Fake DVIDS URLs: https://www.dvidshub.net/video/100000/uap  (sequential IDs ending in /uap)
- */
-export function isFakePlaceholder(url: string): boolean {
-  if (/dvidshub\.net\/video\/10[0-9]{4}\/uap/.test(url)) return true;
-  if (/war\.gov\/.*placeholder/.test(url)) return true;
-  return false;
-}
-
 /**
  * Converts a real DVIDS video page URL to an embed URL.
  * Input:  https://www.dvidshub.net/video/1006056/foo-bar
@@ -43,13 +32,12 @@ function toDvidsEmbed(url: string): string | null {
 /**
  * Returns the best available embed URL for a document:
  * 1. YouTube/Vimeo override map (known-good real UAP videos)
- * 2. Validates DB value — discards fake placeholders
- * 3. Converts real DVIDS page URLs to embed format
- * 4. Returns direct URLs as-is (YouTube, Vimeo, .mp4 from trusted sources)
+ * 2. Converts real DVIDS page URLs to embed format
+ * 3. Returns direct URLs as-is (YouTube, Vimeo, .mp4 from trusted sources)
  */
 export function getVideoUrl(officialId: string | null | undefined, dbVideoUrl: string | null | undefined): string | null {
   if (officialId && UAP_VIDEO_OVERRIDES[officialId]) return UAP_VIDEO_OVERRIDES[officialId];
-  if (!dbVideoUrl || isFakePlaceholder(dbVideoUrl)) return null;
+  if (!dbVideoUrl) return null;
   if (dbVideoUrl.includes('/embed/')) return dbVideoUrl;
   const dvidsEmbed = toDvidsEmbed(dbVideoUrl);
   if (dvidsEmbed) return dvidsEmbed;

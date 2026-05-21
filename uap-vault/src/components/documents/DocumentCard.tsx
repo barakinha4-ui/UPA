@@ -7,8 +7,6 @@ import { UapDocument, COUNTRIES } from '@/types/database';
 import { motion } from 'framer-motion';
 import { FileText, Video, Image as ImageIcon, File, FolderOpen, MapPin, Calendar, Eye } from 'lucide-react';
 
-import { isFakePlaceholder } from '@/lib/uap-video-overrides';
-
 interface DocumentCardProps {
   doc: UapDocument;
   locale: 'pt' | 'en';
@@ -51,8 +49,10 @@ export default function DocumentCard({ doc, locale }: DocumentCardProps) {
   const classStyle = CLASSIFICATION_COLORS[doc.classification] || CLASSIFICATION_COLORS.unknown;
   const MediaIcon = MEDIA_ICONS[doc.media_type] || File;
 
-  // Filter out known fake placeholders
-  const hasValidThumbnail = doc.thumbnail_url && !isFakePlaceholder(doc.thumbnail_url);
+  // Use proxy for war.gov to bypass hotlink protection
+  const proxiedThumbnail = doc.thumbnail_url?.startsWith('https://www.war.gov/')
+    ? doc.thumbnail_url.replace('https://www.war.gov/', '/api/proxy-war/')
+    : doc.thumbnail_url;
 
   return (
     <motion.div
@@ -65,9 +65,9 @@ export default function DocumentCard({ doc, locale }: DocumentCardProps) {
       
       {/* Card Header / Thumbnail */}
       <Link href={`/documentos/${doc.slug}`} className="relative block aspect-video overflow-hidden bg-[#0a0a0c] border-b border-[#c8a96e]/10">
-        {!imgError && hasValidThumbnail ? (
+        {!imgError && proxiedThumbnail ? (
           <img
-            src={doc.thumbnail_url!}
+            src={proxiedThumbnail}
             alt={title}
             onError={() => setImgError(true)}
             className="w-full h-full object-cover opacity-60 group-hover:opacity-80 group-hover:scale-105 transition-all duration-500"
