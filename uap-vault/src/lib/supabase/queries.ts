@@ -54,11 +54,19 @@ export async function getDocuments(filters: {
   // Merge with local data
   let allDocs = [...(dbData || []).map((d: any) => ({ ...d, country: d.country || 'US', source_program: d.source_program || 'PURSUE' })), ...getAllLocalDocs()];
 
-  // Deduplicate by slug
-  const seen = new Set<string>();
+  // Deduplicate by slug and exact title to remove generic duplicates
+  const seenSlugs = new Set<string>();
+  const seenTitles = new Set<string>();
+  
   allDocs = allDocs.filter(d => {
-    if (seen.has(d.slug)) return false;
-    seen.add(d.slug);
+    if (seenSlugs.has(d.slug)) return false;
+    
+    // If it's a generic generated title or just exactly the same title, deduplicate it
+    if (d.title_en && seenTitles.has(d.title_en)) return false;
+    
+    seenSlugs.add(d.slug);
+    if (d.title_en) seenTitles.add(d.title_en);
+    
     return true;
   });
 
@@ -160,11 +168,15 @@ export async function searchDocuments(queryStr: string, lang: 'pt' | 'en', page 
   });
 
   const allResults = [...(data || []), ...localFiltered];
-  // Deduplicate
-  const seen = new Set<string>();
+  // Deduplicate by slug and title
+  const seenSlugs = new Set<string>();
+  const seenTitles = new Set<string>();
   const unique = allResults.filter(d => {
-    if (seen.has(d.slug)) return false;
-    seen.add(d.slug);
+    if (seenSlugs.has(d.slug)) return false;
+    if (d.title_en && seenTitles.has(d.title_en)) return false;
+    
+    seenSlugs.add(d.slug);
+    if (d.title_en) seenTitles.add(d.title_en);
     return true;
   });
   return unique.slice(offset, offset + limit) as UapDocument[];
@@ -182,10 +194,14 @@ export async function getGeoDocuments() {
   const localGeo = getAllLocalDocs().filter(d => d.lat !== null && d.lng !== null && d.lat !== 0 && d.lng !== 0);
 
   const all = [...(data || []), ...localGeo];
-  const seen = new Set<string>();
+  const seenSlugs = new Set<string>();
+  const seenTitles = new Set<string>();
   return all.filter(d => {
-    if (seen.has(d.slug)) return false;
-    seen.add(d.slug);
+    if (seenSlugs.has(d.slug)) return false;
+    if (d.title_en && seenTitles.has(d.title_en)) return false;
+    
+    seenSlugs.add(d.slug);
+    if (d.title_en) seenTitles.add(d.title_en);
     return true;
   }) as UapDocument[];
 }
@@ -202,10 +218,14 @@ export async function getRelatedDocuments(slug: string, agency: string, year: nu
 
   const localRelated = getAllLocalDocs().filter(d => d.slug !== slug && (d.agency === agency || d.incident_year === year)).slice(0, 4);
   const allRelated = [...(data || []), ...localRelated];
-  const seen = new Set<string>();
+  const seenSlugs = new Set<string>();
+  const seenTitles = new Set<string>();
   return allRelated.filter(d => {
-    if (seen.has(d.slug)) return false;
-    seen.add(d.slug);
+    if (seenSlugs.has(d.slug)) return false;
+    if (d.title_en && seenTitles.has(d.title_en)) return false;
+    
+    seenSlugs.add(d.slug);
+    if (d.title_en) seenTitles.add(d.title_en);
     return true;
   }).slice(0, 4) as UapDocument[];
 }
