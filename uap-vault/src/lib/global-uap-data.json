@@ -20,7 +20,7 @@
     "lat": -0.9367,
     "lng": -48.5325,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1541873676-a18131494184?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/FBI-Photo-A8.png",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -61,7 +61,7 @@
     "lat": -23.5505,
     "lng": -46.6333,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/NASA-UAP-VM1-Apollo-12-1969.jpg",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -102,7 +102,7 @@
     "lat": -21.551,
     "lng": -45.4333,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1517976487492-5750f3195933?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/NASA-UAP-VM2-Apollo-12-1969.jpg",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -143,7 +143,7 @@
     "lat": -20.5067,
     "lng": -29.315,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/NASA-UAP-VM3-Apollo-12-1969.jpg",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -184,7 +184,7 @@
     "lat": -15.7801,
     "lng": -47.9292,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/NASA-UAP-VM4-Apollo-12-1969.jpg",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -224,7 +224,7 @@
     "lat": 43.5081,
     "lng": 6.1258,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1606822262799-73fbba911c42?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/NASA-UAP-VM5-Apollo-12-1969.jpg",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -267,7 +267,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689057.mp4",
     "tags": [
       "geipan",
       "valensole",
@@ -308,7 +308,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689082.mp4",
     "tags": [
       "geipan",
       "belgian-wave",
@@ -348,7 +348,7 @@
     "lng": 1.4333,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/FBI-Photo-B24.pdf",
     "video_url": null,
     "tags": [
       "mod",
@@ -390,7 +390,7 @@
     "lng": -2.3056,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/FBI-Photo-B3.pdf",
     "video_url": null,
     "tags": [
       "mod",
@@ -430,7 +430,7 @@
     "lat": 51.5074,
     "lng": -0.1278,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/NASA-UAP-VM6-Apollo-17-1972.jpg",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -471,7 +471,7 @@
     "lat": -33.4489,
     "lng": -71.6627,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/FBI-Photo-A1.png",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -512,7 +512,7 @@
     "lat": -33.5617,
     "lng": -70.6844,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1520114002011-8ce2b6271c66?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/FBI-Photo-A2.png",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -553,7 +553,7 @@
     "lat": 43.46,
     "lng": -65.72,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1541873676-a18131494184?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/FBI-Photo-A3.png",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -595,7 +595,7 @@
     "lat": 49.6833,
     "lng": -95.25,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/FBI-Photo-A4.png",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -637,7 +637,7 @@
     "lat": -15.7801,
     "lng": -47.9292,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1517976487492-5750f3195933?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/FBI-Photo-A5.png",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -680,7 +680,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689083.mp4",
     "tags": [
       "mod",
       "lakenheath",
@@ -721,7 +721,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689090.mp4",
     "tags": [
       "geipan",
       "cometa",
@@ -761,7 +761,7 @@
     "lng": -70.6693,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/FBI-Photo-B4.pdf",
     "video_url": null,
     "tags": [
       "cefaa",
@@ -802,7 +802,7 @@
     "lng": -75.883,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/FBI-Photo-B5.pdf",
     "video_url": null,
     "tags": [
       "dnd",
@@ -842,7 +842,7 @@
     "lat": -23.5985,
     "lng": -46.8879,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/FBI-Photo-A6.png",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -881,7 +881,7 @@
     "lat": -12.9994,
     "lng": -38.5624,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1506452535096-7bb13e11746b?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/FBI-Photo-A7.png",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -920,7 +920,7 @@
     "lat": -12.8305,
     "lng": -38.6486,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1519681393784-d120267933ba?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/FBI-Photo-A8.png",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -959,7 +959,7 @@
     "lat": -23.2201,
     "lng": -43.1292,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/NASA-UAP-VM1-Apollo-12-1969.jpg",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -998,7 +998,7 @@
     "lat": -22.5453,
     "lng": -45.7034,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/NASA-UAP-VM2-Apollo-12-1969.jpg",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -1037,7 +1037,7 @@
     "lat": -0.9786,
     "lng": -48.6824,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1520114002011-8ce2b6271c66?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/NASA-UAP-VM3-Apollo-12-1969.jpg",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -1076,7 +1076,7 @@
     "lat": -5.8047,
     "lng": -35.2548,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1541873676-a18131494184?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/NASA-UAP-VM4-Apollo-12-1969.jpg",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -1117,7 +1117,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689115.mp4",
     "tags": [
       "sni",
       "1977",
@@ -1155,7 +1155,7 @@
     "lng": -54.9159,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/FBI-Photo-B6.pdf",
     "video_url": null,
     "tags": [
       "fab",
@@ -1194,7 +1194,7 @@
     "lng": -60.0041,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/FBI-Photo-B7.pdf",
     "video_url": null,
     "tags": [
       "comdabra",
@@ -1232,7 +1232,7 @@
     "lat": -3.6807,
     "lng": -38.8515,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1451187580459-43490279c0fa?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/NASA-UAP-VM5-Apollo-12-1969.jpg",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -1271,7 +1271,7 @@
     "lat": -22.1188,
     "lng": -43.555,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1606822262799-73fbba911c42?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/NASA-UAP-VM6-Apollo-17-1972.jpg",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -1468,7 +1468,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689123.mp4",
     "tags": [
       "fab",
       "1997",
@@ -1507,7 +1507,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689133.mp4",
     "tags": [
       "sni",
       "1993",
@@ -1545,7 +1545,7 @@
     "lng": -45.7025,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/FBI-Photo-B8.pdf",
     "video_url": null,
     "tags": [
       "sni",
@@ -1584,7 +1584,7 @@
     "lng": -49.393,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/FBI-Photo-B9.pdf",
     "video_url": null,
     "tags": [
       "sni",
@@ -1858,7 +1858,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689142.mp4",
     "tags": [
       "fab",
       "1973",
@@ -1897,7 +1897,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689167.mp4",
     "tags": [
       "fab",
       "1995",
@@ -1935,7 +1935,7 @@
     "lng": -47.6487,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/NASA-UAP-D1-Apollo-12-Transcript-1969.pdf",
     "video_url": null,
     "tags": [
       "fab",
@@ -1975,7 +1975,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880270",
+    "video_url": "/media/DOD_111689168.mp4",
     "tags": [
       "comdabra",
       "1965",
@@ -2248,7 +2248,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689232.mp4",
     "tags": [
       "fab",
       "1974",
@@ -2325,7 +2325,7 @@
     "lng": -38.5464,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/NASA-UAP-D2-Apollo-17-Transcript-1972.pdf",
     "video_url": null,
     "tags": [
       "comdabra",
@@ -2364,7 +2364,7 @@
     "lng": -47.0285,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/NASA-UAP-D4-Apollo-11-Technical-Crew-Debriefing-1969.pdf",
     "video_url": null,
     "tags": [
       "fab",
@@ -2638,7 +2638,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689759.mp4",
     "tags": [
       "sni",
       "2025",
@@ -2677,7 +2677,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688723.mp4",
     "tags": [
       "fab",
       "1954",
@@ -2715,7 +2715,7 @@
     "lng": -59.9802,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/NASA-UAP-D5-Apollo-17-Crew-Debriefing-for-Science-1973.pdf",
     "video_url": null,
     "tags": [
       "fab",
@@ -2754,7 +2754,7 @@
     "lng": -60.1581,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/NASA-UAP-D6-Apollo-17-Technical-Crew-Debriefing-1973.pdf",
     "video_url": null,
     "tags": [
       "fab",
@@ -3028,7 +3028,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688762.mp4",
     "tags": [
       "fab",
       "1948",
@@ -3067,7 +3067,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688775.mp4",
     "tags": [
       "comdabra",
       "1972",
@@ -3106,7 +3106,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880273",
+    "video_url": "/media/DOD_111688809.mp4",
     "tags": [
       "fab",
       "1981",
@@ -3144,7 +3144,7 @@
     "lng": -55.0979,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/NASA-UAP-D7-Skylab-Technical-Crew-Debriefing-1973.pdf",
     "video_url": null,
     "tags": [
       "fab",
@@ -3457,7 +3457,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688816.mp4",
     "tags": [
       "comdabra",
       "1955",
@@ -3495,7 +3495,7 @@
     "lng": -47.7476,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/Serial 5 Redacted_Redacted.pdf",
     "video_url": null,
     "tags": [
       "fab",
@@ -3534,7 +3534,7 @@
     "lng": -45.9208,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/Serial-3_Redacted.pdf",
     "video_url": null,
     "tags": [
       "fab",
@@ -3808,7 +3808,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688825.mp4",
     "tags": [
       "fab",
       "1988",
@@ -3847,7 +3847,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688954.mp4",
     "tags": [
       "fab",
       "2009",
@@ -3885,7 +3885,7 @@
     "lng": -60.0034,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/Serial-4-Redacted_Redacted.pdf",
     "video_url": null,
     "tags": [
       "fab",
@@ -3924,7 +3924,7 @@
     "lng": -48.4714,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/USPER-Statement-Redacted.pdf",
     "video_url": null,
     "tags": [
       "comdabra",
@@ -4237,7 +4237,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688964.mp4",
     "tags": [
       "fab",
       "1959",
@@ -4314,7 +4314,7 @@
     "lng": -38.3774,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/Western_US_Event_Slides_5.08.2026.pdf",
     "video_url": null,
     "tags": [
       "comdabra",
@@ -4588,7 +4588,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688970.mp4",
     "tags": [
       "fab",
       "1960",
@@ -4627,7 +4627,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688997.mp4",
     "tags": [
       "fab",
       "1951",
@@ -4665,7 +4665,7 @@
     "lng": -49.0046,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/059UAP00011.pdf",
     "video_url": null,
     "tags": [
       "fab",
@@ -4704,7 +4704,7 @@
     "lng": -35.3229,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/059UAP00012.pdf",
     "video_url": null,
     "tags": [
       "fab",
@@ -4978,7 +4978,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689005.mp4",
     "tags": [
       "comdabra",
       "2015",
@@ -5017,7 +5017,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689011.mp4",
     "tags": [
       "comdabra",
       "1949",
@@ -5055,7 +5055,7 @@
     "lng": -54.7079,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/059UAP00013.pdf",
     "video_url": null,
     "tags": [
       "sni",
@@ -5094,7 +5094,7 @@
     "lng": -45.784,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/18_100754_ General 1946-7_Vol_2.pdf",
     "video_url": null,
     "tags": [
       "comdabra",
@@ -5407,7 +5407,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689022.mp4",
     "tags": [
       "fab",
       "2011",
@@ -5445,7 +5445,7 @@
     "lng": -46.9092,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/18_6369445_General_1948_Vol_1.pdf",
     "video_url": null,
     "tags": [
       "comdabra",
@@ -5485,7 +5485,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880270",
+    "video_url": "/media/DOD_111689030.mp4",
     "tags": [
       "sni",
       "1949",
@@ -5758,7 +5758,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689044.mp4",
     "tags": [
       "fab",
       "1997",
@@ -5797,7 +5797,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689051.mp4",
     "tags": [
       "fab",
       "2007",
@@ -5835,7 +5835,7 @@
     "lng": -49.6057,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/2024-04-30-Composite-Sketch.pdf",
     "video_url": null,
     "tags": [
       "fab",
@@ -5874,7 +5874,7 @@
     "lng": -43.5791,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/255_413270_UFO's_and_Defense_What_Should_we_Prepare_For.pdf",
     "video_url": null,
     "tags": [
       "comdabra",
@@ -6148,7 +6148,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689057.mp4",
     "tags": [
       "geipan",
       "1960",
@@ -6187,7 +6187,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689082.mp4",
     "tags": [
       "geipan",
       "2023",
@@ -6226,7 +6226,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880273",
+    "video_url": "/media/DOD_111689083.mp4",
     "tags": [
       "geipan",
       "1954",
@@ -6538,7 +6538,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689090.mp4",
     "tags": [
       "geipan",
       "1959",
@@ -6615,7 +6615,7 @@
     "lng": 3.9639,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/255_t_763_r1b_transcripts.pdf",
     "video_url": null,
     "tags": [
       "geipan",
@@ -6654,7 +6654,7 @@
     "lng": -1.8634,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/331_120752_Numeric_Files_1944â€“1945_37153_German_Armament_Equipment_Documents.pdf",
     "video_url": null,
     "tags": [
       "geipan",
@@ -6928,7 +6928,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689115.mp4",
     "tags": [
       "geipan",
       "1985",
@@ -6967,7 +6967,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689123.mp4",
     "tags": [
       "geipan",
       "1996",
@@ -7045,7 +7045,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880270",
+    "video_url": "/media/DOD_111689133.mp4",
     "tags": [
       "geipan",
       "2001",
@@ -7318,7 +7318,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689142.mp4",
     "tags": [
       "geipan",
       "1993",
@@ -7395,7 +7395,7 @@
     "lng": 7.5023,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/341_110448_Records_Relating_to_the_Collection_and_Dissemination_of_Intelligence_1948-1955-TS_CONT_No.2_2-5300-2-5399.pdf",
     "video_url": null,
     "tags": [
       "geipan",
@@ -7708,7 +7708,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689167.mp4",
     "tags": [
       "geipan",
       "1949",
@@ -7747,7 +7747,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689168.mp4",
     "tags": [
       "geipan",
       "1965",
@@ -7786,7 +7786,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880273",
+    "video_url": "/media/DOD_111689232.mp4",
     "tags": [
       "geipan",
       "1951",
@@ -7824,7 +7824,7 @@
     "lng": 4.3993,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/341_110677_Numerical_File_5-2500.pdf",
     "video_url": null,
     "tags": [
       "geipan",
@@ -8098,7 +8098,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689759.mp4",
     "tags": [
       "geipan",
       "1983",
@@ -8137,7 +8137,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688723.mp4",
     "tags": [
       "geipan",
       "1951",
@@ -8214,7 +8214,7 @@
     "lng": -0.6551,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/342_HS1-416511228_box186_319.1-Flying-Discs-1949.pdf",
     "video_url": null,
     "tags": [
       "geipan",
@@ -8488,7 +8488,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688762.mp4",
     "tags": [
       "geipan",
       "2005",
@@ -8604,7 +8604,7 @@
     "lng": 3.4697,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/38_143685_box7_Incident_Summaries_1-100.pdf",
     "video_url": null,
     "tags": [
       "geipan",
@@ -8878,7 +8878,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688775.mp4",
     "tags": [
       "geipan",
       "1949",
@@ -8917,7 +8917,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688809.mp4",
     "tags": [
       "geipan",
       "1952",
@@ -8955,7 +8955,7 @@
     "lng": 5.0987,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/38_143685_box7_Incident_Summaries_101-172.pdf",
     "video_url": null,
     "tags": [
       "geipan",
@@ -8994,7 +8994,7 @@
     "lng": 5.5847,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/38_143685_box7_Incident_Summaries_173-233.pdf",
     "video_url": null,
     "tags": [
       "geipan",
@@ -9307,7 +9307,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688816.mp4",
     "tags": [
       "geipan",
       "2019",
@@ -9345,7 +9345,7 @@
     "lng": 7.6283,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/59_214434_SP_16_[7.18.1963].pdf",
     "video_url": null,
     "tags": [
       "geipan",
@@ -9385,7 +9385,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880270",
+    "video_url": "/media/DOD_111688825.mp4",
     "tags": [
       "geipan",
       "1947",
@@ -9658,7 +9658,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688954.mp4",
     "tags": [
       "geipan",
       "2021",
@@ -9697,7 +9697,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688964.mp4",
     "tags": [
       "geipan",
       "1989",
@@ -9736,7 +9736,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880273",
+    "video_url": "/media/DOD_111688970.mp4",
     "tags": [
       "geipan",
       "1979",
@@ -9775,7 +9775,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880270",
+    "video_url": "/media/DOD_111688997.mp4",
     "tags": [
       "geipan",
       "2007",
@@ -10048,7 +10048,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689005.mp4",
     "tags": [
       "mod",
       "1983",
@@ -10087,7 +10087,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689011.mp4",
     "tags": [
       "mod",
       "1956",
@@ -10125,7 +10125,7 @@
     "lng": -3.4802,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/59_64634_711.5612[7-2852.pdf",
     "video_url": null,
     "tags": [
       "mod",
@@ -10164,7 +10164,7 @@
     "lng": -1.6084,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/65_HS1-101634279_100-DE-18221_Serial_844.pdf",
     "video_url": null,
     "tags": [
       "mod",
@@ -10438,7 +10438,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689022.mp4",
     "tags": [
       "mod",
       "1966",
@@ -10477,7 +10477,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689030.mp4",
     "tags": [
       "mod",
       "2005",
@@ -10515,7 +10515,7 @@
     "lng": -4.6855,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/65_HS1-101634279_100-DE-26505.pdf",
     "video_url": null,
     "tags": [
       "mod",
@@ -10828,7 +10828,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689044.mp4",
     "tags": [
       "mod",
       "2014",
@@ -10905,7 +10905,7 @@
     "lng": -3.3052,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Section_1.pdf",
     "video_url": null,
     "tags": [
       "mod",
@@ -10944,7 +10944,7 @@
     "lng": -2.0056,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Section_10.pdf",
     "video_url": null,
     "tags": [
       "mod",
@@ -11257,7 +11257,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689051.mp4",
     "tags": [
       "mod",
       "1971",
@@ -11335,7 +11335,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880270",
+    "video_url": "/media/DOD_111689057.mp4",
     "tags": [
       "mod",
       "1971",
@@ -11647,7 +11647,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689082.mp4",
     "tags": [
       "mod",
       "1950",
@@ -11724,7 +11724,7 @@
     "lng": -2.0958,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Section_2.pdf",
     "video_url": null,
     "tags": [
       "mod",
@@ -11998,7 +11998,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689083.mp4",
     "tags": [
       "mod",
       "1972",
@@ -12037,7 +12037,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689090.mp4",
     "tags": [
       "mod",
       "1949",
@@ -12076,7 +12076,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880273",
+    "video_url": "/media/DOD_111689115.mp4",
     "tags": [
       "mod",
       "1980",
@@ -12114,7 +12114,7 @@
     "lng": -4.6196,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Section_3.pdf",
     "video_url": null,
     "tags": [
       "mod",
@@ -12388,7 +12388,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689123.mp4",
     "tags": [
       "mod",
       "2025",
@@ -12427,7 +12427,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689133.mp4",
     "tags": [
       "mod",
       "1953",
@@ -12817,7 +12817,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689142.mp4",
     "tags": [
       "mod",
       "1994",
@@ -12855,7 +12855,7 @@
     "lng": -0.9892,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Section_4.pdf",
     "video_url": null,
     "tags": [
       "mod",
@@ -12895,7 +12895,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880270",
+    "video_url": "/media/DOD_111689167.mp4",
     "tags": [
       "mod",
       "1985",
@@ -13168,7 +13168,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689168.mp4",
     "tags": [
       "mod",
       "1954",
@@ -13207,7 +13207,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689232.mp4",
     "tags": [
       "mod",
       "2005",
@@ -13245,7 +13245,7 @@
     "lng": -1.2194,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Section_5.pdf",
     "video_url": null,
     "tags": [
       "mod",
@@ -13284,7 +13284,7 @@
     "lng": -1.0981,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Section_6.pdf",
     "video_url": null,
     "tags": [
       "mod",
@@ -13558,7 +13558,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689759.mp4",
     "tags": [
       "cefaa",
       "1977",
@@ -13597,7 +13597,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688723.mp4",
     "tags": [
       "cefaa",
       "2007",
@@ -13635,7 +13635,7 @@
     "lng": -71.2918,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Section_7.pdf",
     "video_url": null,
     "tags": [
       "cefaa",
@@ -13675,7 +13675,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880270",
+    "video_url": "/media/DOD_111688762.mp4",
     "tags": [
       "cefaa",
       "1967",
@@ -13948,7 +13948,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688775.mp4",
     "tags": [
       "cefaa",
       "1992",
@@ -13987,7 +13987,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688809.mp4",
     "tags": [
       "cefaa",
       "1957",
@@ -14025,7 +14025,7 @@
     "lng": -70.8898,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Section_8.pdf",
     "video_url": null,
     "tags": [
       "cefaa",
@@ -14064,7 +14064,7 @@
     "lng": -71.938,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Section_9.pdf",
     "video_url": null,
     "tags": [
       "cefaa",
@@ -14377,7 +14377,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688816.mp4",
     "tags": [
       "cefaa",
       "2021",
@@ -14415,7 +14415,7 @@
     "lng": -73.0422,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Serial_130.pdf",
     "video_url": null,
     "tags": [
       "cefaa",
@@ -14454,7 +14454,7 @@
     "lng": -70.9726,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Serial_153.pdf",
     "video_url": null,
     "tags": [
       "cefaa",
@@ -14767,7 +14767,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688825.mp4",
     "tags": [
       "cefaa",
       "1976",
@@ -14805,7 +14805,7 @@
     "lng": -70.4489,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Serial_164.pdf",
     "video_url": null,
     "tags": [
       "cefaa",
@@ -14844,7 +14844,7 @@
     "lng": -72.8825,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Serial_220.pdf",
     "video_url": null,
     "tags": [
       "cefaa",
@@ -15118,7 +15118,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688954.mp4",
     "tags": [
       "dnd",
       "1999",
@@ -15157,7 +15157,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688964.mp4",
     "tags": [
       "dnd",
       "1970",
@@ -15195,7 +15195,7 @@
     "lng": -123.2111,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Serial_403.pdf",
     "video_url": null,
     "tags": [
       "dnd",
@@ -15508,7 +15508,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688970.mp4",
     "tags": [
       "dnd",
       "1979",
@@ -15547,7 +15547,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688997.mp4",
     "tags": [
       "dnd",
       "2013",
@@ -15585,7 +15585,7 @@
     "lng": -123.4843,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Serial_438.pdf",
     "video_url": null,
     "tags": [
       "dnd",
@@ -15624,7 +15624,7 @@
     "lng": -52.5837,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Serial_449.pdf",
     "video_url": null,
     "tags": [
       "dnd",
@@ -15898,7 +15898,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689005.mp4",
     "tags": [
       "dnd",
       "1954",
@@ -15975,7 +15975,7 @@
     "lng": -113.3553,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_SUB_A.pdf",
     "video_url": null,
     "tags": [
       "dnd",
@@ -16014,7 +16014,7 @@
     "lng": -113.493,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/DOS-UAP-D1-Cable-1-Papua-New-Guinea-January-1985.pdf",
     "video_url": null,
     "tags": [
       "dnd",
@@ -16288,7 +16288,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689011.mp4",
     "tags": [
       "dnd",
       "1975",
@@ -16327,7 +16327,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689022.mp4",
     "tags": [
       "dnd",
       "1996",
@@ -16366,7 +16366,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880273",
+    "video_url": "/media/DOD_111689030.mp4",
     "tags": [
       "dnd",
       "1956",
@@ -16678,7 +16678,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689044.mp4",
     "tags": [
       "dnd",
       "2004",
@@ -16717,7 +16717,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689051.mp4",
     "tags": [
       "dnd",
       "1992",
@@ -16755,7 +16755,7 @@
     "lng": -106.6832,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/DOS-UAP-D2-Cable-2-Kazakhstan-January-1994.pdf",
     "video_url": null,
     "tags": [
       "dnd",
@@ -16794,7 +16794,7 @@
     "lng": -76.0978,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D10-Mission-Report-Middle-East-May-2022.pdf",
     "video_url": null,
     "tags": [
       "dnd",
@@ -17107,7 +17107,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689057.mp4",
     "tags": [
       "dnd",
       "1970",
@@ -17145,7 +17145,7 @@
     "lng": -123.5023,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D12-Mission-Report-Iraq-May-2022.pdf",
     "video_url": null,
     "tags": [
       "dnd",
@@ -17184,7 +17184,7 @@
     "lng": -110.5737,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D14-Mission-Report-Iraq-May-2022.pdf",
     "video_url": null,
     "tags": [
       "dnd",
@@ -17458,7 +17458,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689082.mp4",
     "tags": [
       "usn",
       "1975",
@@ -17497,7 +17497,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689083.mp4",
     "tags": [
       "doe",
       "2021",
@@ -17535,7 +17535,7 @@
     "lng": -104.6793,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D16-Mission-Report-Syria-July-2022.pdf",
     "video_url": null,
     "tags": [
       "fbi",
@@ -17574,7 +17574,7 @@
     "lng": -86.34,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D18-Mission-Report-Iraq-December-2022.pdf",
     "video_url": null,
     "tags": [
       "state",
@@ -17848,7 +17848,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689090.mp4",
     "tags": [
       "state",
       "1969",
@@ -17887,7 +17887,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689115.mp4",
     "tags": [
       "dow",
       "1993",
@@ -17925,7 +17925,7 @@
     "lng": -87.0282,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D19-Mission-Report-Syria-February-21-2023.pdf",
     "video_url": null,
     "tags": [
       "cia",
@@ -17964,7 +17964,7 @@
     "lng": -75.9132,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D20-Mission-Report-Iraq-2023.pdf",
     "video_url": null,
     "tags": [
       "fbi",
@@ -18238,7 +18238,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689123.mp4",
     "tags": [
       "doe",
       "2012",
@@ -18277,7 +18277,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689133.mp4",
     "tags": [
       "dow",
       "1987",
@@ -18316,7 +18316,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880273",
+    "video_url": "/media/DOD_111689142.mp4",
     "tags": [
       "state",
       "1951",
@@ -18628,7 +18628,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689167.mp4",
     "tags": [
       "cia",
       "1962",
@@ -18667,7 +18667,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689168.mp4",
     "tags": [
       "cia",
       "1966",
@@ -18706,7 +18706,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880273",
+    "video_url": "/media/DOD_111689232.mp4",
     "tags": [
       "nasa",
       "2010",
@@ -18744,7 +18744,7 @@
     "lng": -90.3196,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023.pdf",
     "video_url": null,
     "tags": [
       "state",
@@ -19018,7 +19018,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689759.mp4",
     "tags": [
       "odni",
       "1949",
@@ -19057,7 +19057,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688723.mp4",
     "tags": [
       "fbi",
       "1962",
@@ -19095,7 +19095,7 @@
     "lng": -88.0526,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D25-Mission-Report-Greece-January-2024.pdf",
     "video_url": null,
     "tags": [
       "cia",
@@ -19135,7 +19135,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880270",
+    "video_url": "/media/DOD_111688762.mp4",
     "tags": [
       "fbi",
       "1984",
@@ -19408,7 +19408,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688775.mp4",
     "tags": [
       "usn",
       "1977",
@@ -19447,7 +19447,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688809.mp4",
     "tags": [
       "usaf",
       "1966",
@@ -19486,7 +19486,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880273",
+    "video_url": "/media/DOD_111688816.mp4",
     "tags": [
       "fbi",
       "2007",
@@ -19798,7 +19798,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688825.mp4",
     "tags": [
       "usn",
       "1985",
@@ -19837,7 +19837,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688954.mp4",
     "tags": [
       "state",
       "1972",
@@ -19914,7 +19914,7 @@
     "lng": -76.6226,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023.pdf",
     "video_url": null,
     "tags": [
       "odni",
@@ -20304,7 +20304,7 @@
     "lng": -124.199,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D28-Mission-Report-East-China-Sea-2024.pdf",
     "video_url": null,
     "tags": [
       "usaf",
@@ -20578,7 +20578,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688964.mp4",
     "tags": [
       "dow",
       "1987",
@@ -20655,7 +20655,7 @@
     "lng": -84.3238,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020.pdf",
     "video_url": null,
     "tags": [
       "usn",
@@ -20695,7 +20695,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880270",
+    "video_url": "/media/DOD_111688970.mp4",
     "tags": [
       "fbi",
       "2006",
@@ -20968,7 +20968,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688997.mp4",
     "tags": [
       "cia",
       "1954",
@@ -21045,7 +21045,7 @@
     "lng": -112.2151,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D32-Mission-Report,-Syria-October-2024.pdf",
     "video_url": null,
     "tags": [
       "cia",
@@ -21084,7 +21084,7 @@
     "lng": -87.7311,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D33-Mission-Report-Greece-October-2023.pdf",
     "video_url": null,
     "tags": [
       "usaf",
@@ -21358,7 +21358,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689005.mp4",
     "tags": [
       "usaf",
       "1985",
@@ -21397,7 +21397,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689011.mp4",
     "tags": [
       "doe",
       "2007",
@@ -21435,7 +21435,7 @@
     "lng": -115.454,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D35-Mission-Report-Greece-October-2023.pdf",
     "video_url": null,
     "tags": [
       "dow",
@@ -21474,7 +21474,7 @@
     "lng": -124.7607,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D38-Range-Fouler-Debrief-Middle-East-May-2020.pdf",
     "video_url": null,
     "tags": [
       "dow",
@@ -21748,7 +21748,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689022.mp4",
     "tags": [
       "usaf",
       "2003",
@@ -21787,7 +21787,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689030.mp4",
     "tags": [
       "cia",
       "1947",
@@ -21825,7 +21825,7 @@
     "lng": -105.3307,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D4-Mission-Report-Arabian-Gulf-2020.pdf",
     "video_url": null,
     "tags": [
       "cia",
@@ -21865,7 +21865,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880270",
+    "video_url": "/media/DOD_111689044.mp4",
     "tags": [
       "cia",
       "1987",
@@ -22138,7 +22138,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689051.mp4",
     "tags": [
       "fbi",
       "1987",
@@ -22177,7 +22177,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689057.mp4",
     "tags": [
       "fbi",
       "1948",
@@ -22216,7 +22216,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880273",
+    "video_url": "/media/DOD_111689082.mp4",
     "tags": [
       "cia",
       "1987",
@@ -22528,7 +22528,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689083.mp4",
     "tags": [
       "cia",
       "2019",
@@ -22605,7 +22605,7 @@
     "lng": -106.3814,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D42-Range-Fouler-Debrief-Japan-2023.pdf",
     "video_url": null,
     "tags": [
       "dow",
@@ -22644,7 +22644,7 @@
     "lng": -83.7668,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D44-Range-Fouler-Arabian-Sea-October-2020.pdf",
     "video_url": null,
     "tags": [
       "doe",
@@ -22957,7 +22957,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689090.mp4",
     "tags": [
       "fbi",
       "2009",
@@ -22995,7 +22995,7 @@
     "lng": -106.2374,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D48-Report-September-1996.pdf",
     "video_url": null,
     "tags": [
       "dow",
@@ -23034,7 +23034,7 @@
     "lng": -83.9478,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D49-Launch-Summary-February-2000.pdf",
     "video_url": null,
     "tags": [
       "doe",
@@ -23308,7 +23308,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689115.mp4",
     "tags": [
       "fbi",
       "1973",
@@ -23347,7 +23347,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689123.mp4",
     "tags": [
       "odni",
       "1986",
@@ -23385,7 +23385,7 @@
     "lng": -110.8392,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D5-Mission-Report-Arabian-Gulf-2020.pdf",
     "video_url": null,
     "tags": [
       "odni",
@@ -23424,7 +23424,7 @@
     "lng": -122.2925,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D50-Email-Correspondence-INDOPACOM-April-2025.pdf",
     "video_url": null,
     "tags": [
       "dow",
@@ -23698,7 +23698,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689133.mp4",
     "tags": [
       "fbi",
       "2021",
@@ -23737,7 +23737,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689142.mp4",
     "tags": [
       "nasa",
       "1992",
@@ -23775,7 +23775,7 @@
     "lng": -112.2051,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D51-Email-Correspondence-Pacific-Time-Zone-March-2023.pdf",
     "video_url": null,
     "tags": [
       "cia",
@@ -24088,7 +24088,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689167.mp4",
     "tags": [
       "usaf",
       "1976",
@@ -24165,7 +24165,7 @@
     "lng": -76.794,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D52-Email-Correspondance-NA-August-2024.pdf",
     "video_url": null,
     "tags": [
       "nasa",
@@ -24204,7 +24204,7 @@
     "lng": -117.5044,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D54-Mission-Report-Mediterranean-Sea-NA.pdf",
     "video_url": null,
     "tags": [
       "usaf",
@@ -24478,7 +24478,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689168.mp4",
     "tags": [
       "state",
       "1980",
@@ -24868,7 +24868,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689232.mp4",
     "tags": [
       "doe",
       "1958",
@@ -24907,7 +24907,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689759.mp4",
     "tags": [
       "doe",
       "2008",
@@ -24946,7 +24946,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880273",
+    "video_url": "/media/DOD_111688723.mp4",
     "tags": [
       "dow",
       "1953",
@@ -24984,7 +24984,7 @@
     "lng": -86.935,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D55-Mission-Report-Syria-November-2016.pdf",
     "video_url": null,
     "tags": [
       "usn",
@@ -25297,7 +25297,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688762.mp4",
     "tags": [
       "dow",
       "1956",
@@ -25335,7 +25335,7 @@
     "lng": -118.1731,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D56-Range-Fouler-Debrief-Arabian-Sea-August-2020.pdf",
     "video_url": null,
     "tags": [
       "usaf",
@@ -25374,7 +25374,7 @@
     "lng": -88.2917,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D57-Mission-Report-Gulf-of-Aden-September-2020.pdf",
     "video_url": null,
     "tags": [
       "state",
@@ -25648,7 +25648,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688775.mp4",
     "tags": [
       "nasa",
       "1950",
@@ -25687,7 +25687,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688809.mp4",
     "tags": [
       "usn",
       "1973",
@@ -25725,7 +25725,7 @@
     "lng": -86.2156,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D58-Range-Fouler-Debrief-NA-October-2020.pdf",
     "video_url": null,
     "tags": [
       "usaf",
@@ -25765,7 +25765,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880270",
+    "video_url": "/media/DOD_111688816.mp4",
     "tags": [
       "nasa",
       "2019",
@@ -26038,7 +26038,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688825.mp4",
     "tags": [
       "nasa",
       "2006",
@@ -26077,7 +26077,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688954.mp4",
     "tags": [
       "usn",
       "2016",
@@ -26154,7 +26154,7 @@
     "lng": -116.2322,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D6-Mission-Report-Arabian-Gulf-2020.pdf",
     "video_url": null,
     "tags": [
       "odni",
@@ -26428,7 +26428,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688964.mp4",
     "tags": [
       "fbi",
       "1985",
@@ -26467,7 +26467,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688970.mp4",
     "tags": [
       "fbi",
       "2025",
@@ -26506,7 +26506,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880273",
+    "video_url": "/media/DOD_111688997.mp4",
     "tags": [
       "nasa",
       "1962",
@@ -26544,7 +26544,7 @@
     "lng": -118.7408,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D60-Mission-Report-Persian-Gulf-August-2020.pdf",
     "video_url": null,
     "tags": [
       "usn",
@@ -26818,7 +26818,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689005.mp4",
     "tags": [
       "fbi",
       "1981",
@@ -26895,7 +26895,7 @@
     "lng": -106.9372,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D61-Mission-Report-Persian-Gulf-August-2020.pdf",
     "video_url": null,
     "tags": [
       "dow",
@@ -26934,7 +26934,7 @@
     "lng": -118.2001,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020.pdf",
     "video_url": null,
     "tags": [
       "doe",
@@ -27208,7 +27208,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689011.mp4",
     "tags": [
       "fbi",
       "1967",
@@ -27285,7 +27285,7 @@
     "lng": -87.8663,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D63-Mission-Report-Strait-of-Hormuz-October-2020.pdf",
     "video_url": null,
     "tags": [
       "usn",
@@ -27324,7 +27324,7 @@
     "lng": -86.5513,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D64-Mission-Report-Iran-November-2020.pdf",
     "video_url": null,
     "tags": [
       "cia",
@@ -27598,7 +27598,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689022.mp4",
     "tags": [
       "odni",
       "1948",
@@ -27637,7 +27637,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689030.mp4",
     "tags": [
       "dow",
       "2023",
@@ -27676,7 +27676,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880273",
+    "video_url": "/media/DOD_111689044.mp4",
     "tags": [
       "nasa",
       "2023",
@@ -27714,7 +27714,7 @@
     "lng": -117.6082,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D65-Mission-Report-Persian-Gulf-July-2020.pdf",
     "video_url": null,
     "tags": [
       "usn",
@@ -27988,7 +27988,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689051.mp4",
     "tags": [
       "doe",
       "2007",
@@ -28027,7 +28027,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689057.mp4",
     "tags": [
       "dow",
       "1958",
@@ -28065,7 +28065,7 @@
     "lng": -86.9829,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D7-Mission-Report-Arabian-Gulf-2020.pdf",
     "video_url": null,
     "tags": [
       "usn",
@@ -28104,7 +28104,7 @@
     "lng": -84.3812,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D74-Mission-Report-Syria-November-2023.pdf",
     "video_url": null,
     "tags": [
       "odni",
@@ -28495,7 +28495,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880270",
+    "video_url": "/media/DOD_111689082.mp4",
     "tags": [
       "doe",
       "2001",
@@ -28768,7 +28768,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689083.mp4",
     "tags": [
       "odni",
       "1960",
@@ -28846,7 +28846,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880273",
+    "video_url": "/media/DOD_111689090.mp4",
     "tags": [
       "usaf",
       "1992",
@@ -28885,7 +28885,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880270",
+    "video_url": "/media/DOD_111689115.mp4",
     "tags": [
       "odni",
       "1952",
@@ -29158,7 +29158,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689123.mp4",
     "tags": [
       "odni",
       "1971",
@@ -29197,7 +29197,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689133.mp4",
     "tags": [
       "odni",
       "1981",
@@ -29235,7 +29235,7 @@
     "lng": -84.4503,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024.pdf",
     "video_url": null,
     "tags": [
       "cia",
@@ -29587,7 +29587,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689142.mp4",
     "tags": [
       "nasa",
       "1951",
@@ -29938,7 +29938,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689167.mp4",
     "tags": [
       "state",
       "1965",
@@ -29977,7 +29977,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689168.mp4",
     "tags": [
       "usaf",
       "1952",
@@ -30015,7 +30015,7 @@
     "lng": -106.4867,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D8-Mission-Report-Djibouti-2025.pdf",
     "video_url": null,
     "tags": [
       "fbi",
@@ -30054,7 +30054,7 @@
     "lng": -80.4481,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-PR20.pdf",
     "video_url": null,
     "tags": [
       "state",
@@ -30328,7 +30328,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689232.mp4",
     "tags": [
       "odni",
       "2000",
@@ -30367,7 +30367,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689759.mp4",
     "tags": [
       "odni",
       "2012",
@@ -30406,7 +30406,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880273",
+    "video_url": "/media/DOD_111688723.mp4",
     "tags": [
       "nasa",
       "1991",
@@ -30444,7 +30444,7 @@
     "lng": -81.3549,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/FBI-Photo-B1.pdf",
     "video_url": null,
     "tags": [
       "usn",
@@ -30718,7 +30718,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688762.mp4",
     "tags": [
       "doe",
       "1970",
@@ -30757,7 +30757,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688775.mp4",
     "tags": [
       "odni",
       "1986",
@@ -30795,7 +30795,7 @@
     "lng": -86.9611,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/FBI-Photo-B10.pdf",
     "video_url": null,
     "tags": [
       "usaf",
@@ -31108,7 +31108,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688809.mp4",
     "tags": [
       "usn",
       "2003",
@@ -31147,7 +31147,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688816.mp4",
     "tags": [
       "doe",
       "2011",
@@ -31185,7 +31185,7 @@
     "lng": -76.2086,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/FBI-Photo-B11.pdf",
     "video_url": null,
     "tags": [
       "dow",
@@ -31224,7 +31224,7 @@
     "lng": -83.9455,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/FBI-Photo-B12.pdf",
     "video_url": null,
     "tags": [
       "cia",
@@ -31498,7 +31498,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688825.mp4",
     "tags": [
       "fbi",
       "2009",
@@ -31537,7 +31537,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688954.mp4",
     "tags": [
       "doe",
       "1976",
@@ -31575,7 +31575,7 @@
     "lng": -111.5973,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/FBI-Photo-B13.pdf",
     "video_url": null,
     "tags": [
       "usn",
@@ -31927,7 +31927,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688964.mp4",
     "tags": [
       "usn",
       "1995",
@@ -31965,7 +31965,7 @@
     "lng": -124.4079,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/FBI-Photo-B14.pdf",
     "video_url": null,
     "tags": [
       "odni",
@@ -32004,7 +32004,7 @@
     "lng": -111.2647,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/FBI-Photo-B15.pdf",
     "video_url": null,
     "tags": [
       "cia",
@@ -32278,7 +32278,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688970.mp4",
     "tags": [
       "fbi",
       "1960",
@@ -32317,7 +32317,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688997.mp4",
     "tags": [
       "nasa",
       "1980",
@@ -32394,7 +32394,7 @@
     "lng": -83.6603,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/FBI-Photo-B16.pdf",
     "video_url": null,
     "tags": [
       "dow",
@@ -32668,7 +32668,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689005.mp4",
     "tags": [
       "state",
       "1999",
@@ -32707,7 +32707,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689011.mp4",
     "tags": [
       "cia",
       "1984",
@@ -33058,7 +33058,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689022.mp4",
     "tags": [
       "odni",
       "1985",
@@ -33097,7 +33097,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689030.mp4",
     "tags": [
       "cia",
       "2002",
@@ -33136,7 +33136,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/embed/880273",
+    "video_url": "/media/DOD_111689044.mp4",
     "tags": [
       "dow",
       "1984",
@@ -33174,7 +33174,7 @@
     "lng": -76.2111,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/FBI-Photo-B17.pdf",
     "video_url": null,
     "tags": [
       "odni",

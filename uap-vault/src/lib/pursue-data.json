@@ -22,7 +22,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100000/uap",
+    "video_url": "/media/DOD_111688723.mp4",
     "tags": [
       "fbi",
       "1947",
@@ -57,7 +57,7 @@
     "lng": 0,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/NASA-UAP-PR2.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/059UAP00011.pdf",
     "video_url": null,
     "tags": [
       "nasa",
@@ -93,7 +93,7 @@
     "lng": null,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/NASA-UAP-PR3.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/059UAP00012.pdf",
     "video_url": null,
     "tags": [
       "nasa",
@@ -128,7 +128,7 @@
     "lat": 39.7945,
     "lng": 68.7714,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/FBI-Photo-A1.png",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -165,7 +165,7 @@
     "lng": -119,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/FBI-UAP-PR5.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/059UAP00013.pdf",
     "video_url": null,
     "tags": [
       "fbi",
@@ -202,7 +202,7 @@
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR6.jpg",
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100005/uap",
+    "video_url": "/media/DOD_111688762.mp4",
     "tags": [
       "dow",
       "2023",
@@ -238,7 +238,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688775.mp4",
     "tags": [
       "dow",
       "2024",
@@ -273,7 +273,7 @@
     "lng": 38.9968,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR8.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/18_100754_ General 1946-7_Vol_2.pdf",
     "video_url": null,
     "tags": [
       "dow",
@@ -309,7 +309,7 @@
     "lng": 18,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USN-UAP-PR9.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/18_6369445_General_1948_Vol_1.pdf",
     "video_url": null,
     "tags": [
       "usn",
@@ -345,7 +345,7 @@
     "lng": -114.742,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/2024-04-30-Composite-Sketch.pdf",
     "video_url": null,
     "tags": [
       "fbi",
@@ -382,7 +382,7 @@
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/STATE-UAP-PR11.jpg",
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100010/uap",
+    "video_url": "/media/DOD_111688809.mp4",
     "tags": [
       "state",
       "2025",
@@ -417,7 +417,7 @@
     "lng": 43.6793,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USAF-UAP-PR12.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/255_413270_UFO's_and_Defense_What_Should_we_Prepare_For.pdf",
     "video_url": null,
     "tags": [
       "usaf",
@@ -452,7 +452,7 @@
     "lat": 34.8021,
     "lng": 38.9968,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1520114002011-8ce2b6271c66?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/FBI-Photo-A2.png",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -489,7 +489,7 @@
     "lng": 54.3773,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR14.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/255_t_763_r1b_transcripts.pdf",
     "video_url": null,
     "tags": [
       "dow",
@@ -525,7 +525,7 @@
     "lng": 41,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR15.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/331_120752_Numeric_Files_1944â€“1945_37153_German_Armament_Equipment_Documents.pdf",
     "video_url": null,
     "tags": [
       "dow",
@@ -562,7 +562,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100015/uap",
+    "video_url": "/media/DOD_111688816.mp4",
     "tags": [
       "dow",
       "2024",
@@ -597,7 +597,7 @@
     "lng": -119,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/FBI-UAP-PR17.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/341_110448_Records_Relating_to_the_Collection_and_Dissemination_of_Intelligence_1948-1955-TS_CONT_No.2_2-5300-2-5399.pdf",
     "video_url": null,
     "tags": [
       "fbi",
@@ -633,7 +633,7 @@
     "lng": -119,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/FBI-UAP-PR18.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/341_110677_Numerical_File_5-2500.pdf",
     "video_url": null,
     "tags": [
       "fbi",
@@ -669,7 +669,7 @@
     "lng": -119,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/342_HS1-416511228_box186_319.1-Flying-Discs-1949.pdf",
     "video_url": null,
     "tags": [
       "fbi",
@@ -705,7 +705,7 @@
     "lng": -83,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR20.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/38_143685_box7_Incident_Summaries_1-100.pdf",
     "video_url": null,
     "tags": [
       "dow",
@@ -742,7 +742,7 @@
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR21.jpg",
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100020/uap",
+    "video_url": "/media/DOD_111688825.mp4",
     "tags": [
       "dow",
       "2023",
@@ -776,7 +776,7 @@
     "lat": 36,
     "lng": -73,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1506452535096-7bb13e11746b?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/FBI-Photo-A3.png",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -813,7 +813,7 @@
     "lng": -84.0483,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USAF-UAP-PR23.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/38_143685_box7_Incident_Summaries_101-172.pdf",
     "video_url": null,
     "tags": [
       "usaf",
@@ -849,7 +849,7 @@
     "lng": null,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USAF-UAP-PR24.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/38_143685_box7_Incident_Summaries_173-233.pdf",
     "video_url": null,
     "tags": [
       "usaf",
@@ -884,7 +884,7 @@
     "lat": null,
     "lng": null,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/FBI-Photo-A4.png",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -922,7 +922,7 @@
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR26.jpg",
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100025/uap",
+    "video_url": "/media/DOD_111688954.mp4",
     "tags": [
       "dow",
       "2023",
@@ -957,7 +957,7 @@
     "lng": -114.742,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/STATE-UAP-PR27.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/59_214434_SP_16_[7.18.1963].pdf",
     "video_url": null,
     "tags": [
       "state",
@@ -994,7 +994,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688964.mp4",
     "tags": [
       "odni",
       "1978",
@@ -1029,7 +1029,7 @@
     "lng": 54.3773,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOE-UAP-PR29.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/59_64634_711.5612[7-2852.pdf",
     "video_url": null,
     "tags": [
       "doe",
@@ -1065,7 +1065,7 @@
     "lng": 41,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USAF-UAP-PR30.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/65_HS1-101634279_100-DE-18221_Serial_844.pdf",
     "video_url": null,
     "tags": [
       "usaf",
@@ -1102,7 +1102,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100030/uap",
+    "video_url": "/media/DOD_111688970.mp4",
     "tags": [
       "usn",
       "1981",
@@ -1137,7 +1137,7 @@
     "lng": -83,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR32.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/65_HS1-101634279_100-DE-26505.pdf",
     "video_url": null,
     "tags": [
       "dow",
@@ -1173,7 +1173,7 @@
     "lng": -73,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/FBI-UAP-PR33.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Section_1.pdf",
     "video_url": null,
     "tags": [
       "fbi",
@@ -1208,7 +1208,7 @@
     "lat": 39.826,
     "lng": -84.0483,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/FBI-Photo-A5.png",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -1245,7 +1245,7 @@
     "lng": 20,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/STATE-UAP-PR35.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Section_10.pdf",
     "video_url": null,
     "tags": [
       "state",
@@ -1282,7 +1282,7 @@
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/ODNI-UAP-PR36.jpg",
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100035/uap",
+    "video_url": "/media/DOD_111688997.mp4",
     "tags": [
       "odni",
       "1986",
@@ -1318,7 +1318,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689005.mp4",
     "tags": [
       "doe",
       "1987",
@@ -1353,7 +1353,7 @@
     "lng": -104.523,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USAF-UAP-PR38.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Section_2.pdf",
     "video_url": null,
     "tags": [
       "usaf",
@@ -1389,7 +1389,7 @@
     "lng": 0,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USN-UAP-PR39.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Section_3.pdf",
     "video_url": null,
     "tags": [
       "usn",
@@ -1425,7 +1425,7 @@
     "lng": 68.7714,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Section_4.pdf",
     "video_url": null,
     "tags": [
       "dow",
@@ -1462,7 +1462,7 @@
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/FBI-UAP-PR41.jpg",
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100040/uap",
+    "video_url": "/media/DOD_111689011.mp4",
     "tags": [
       "fbi",
       "1991",
@@ -1497,7 +1497,7 @@
     "lng": 21.8243,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/NASA-UAP-PR42.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Section_5.pdf",
     "video_url": null,
     "tags": [
       "nasa",
@@ -1532,7 +1532,7 @@
     "lat": 25,
     "lng": 140,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/FBI-Photo-A6.png",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -1569,7 +1569,7 @@
     "lng": 38.9968,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/ODNI-UAP-PR44.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Section_6.pdf",
     "video_url": null,
     "tags": [
       "odni",
@@ -1605,7 +1605,7 @@
     "lng": 18,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOE-UAP-PR45.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Section_7.pdf",
     "video_url": null,
     "tags": [
       "doe",
@@ -1642,7 +1642,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100045/uap",
+    "video_url": "/media/DOD_111689022.mp4",
     "tags": [
       "usaf",
       "1996",
@@ -1677,7 +1677,7 @@
     "lng": 43.6793,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USN-UAP-PR47.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Section_8.pdf",
     "video_url": null,
     "tags": [
       "usn",
@@ -1713,7 +1713,7 @@
     "lng": 54.3773,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR48.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Section_9.pdf",
     "video_url": null,
     "tags": [
       "dow",
@@ -1749,7 +1749,7 @@
     "lng": 41,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Serial_130.pdf",
     "video_url": null,
     "tags": [
       "fbi",
@@ -1785,7 +1785,7 @@
     "lng": 138.2529,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/NASA-UAP-PR50.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Serial_153.pdf",
     "video_url": null,
     "tags": [
       "nasa",
@@ -1822,7 +1822,7 @@
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/STATE-UAP-PR51.jpg",
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100050/uap",
+    "video_url": "/media/DOD_111689030.mp4",
     "tags": [
       "state",
       "2001",
@@ -1856,7 +1856,7 @@
     "lat": 36,
     "lng": -73,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1520114002011-8ce2b6271c66?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/FBI-Photo-A7.png",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -1893,7 +1893,7 @@
     "lng": -84.0483,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOE-UAP-PR53.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Serial_164.pdf",
     "video_url": null,
     "tags": [
       "doe",
@@ -1929,7 +1929,7 @@
     "lng": 20,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USAF-UAP-PR54.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Serial_220.pdf",
     "video_url": null,
     "tags": [
       "usaf",
@@ -1964,7 +1964,7 @@
     "lat": 40,
     "lng": -100,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1517976487492-5750f3195933?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/FBI-Photo-A8.png",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -2002,7 +2002,7 @@
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR56.jpg",
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100055/uap",
+    "video_url": "/media/DOD_111689044.mp4",
     "tags": [
       "dow",
       "2006",
@@ -2037,7 +2037,7 @@
     "lng": -104.523,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/FBI-UAP-PR57.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Serial_403.pdf",
     "video_url": null,
     "tags": [
       "fbi",
@@ -2074,7 +2074,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689051.mp4",
     "tags": [
       "nasa",
       "2008",
@@ -2109,7 +2109,7 @@
     "lng": 68.7714,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/STATE-UAP-PR59.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Serial_438.pdf",
     "video_url": null,
     "tags": [
       "state",
@@ -2145,7 +2145,7 @@
     "lng": -119,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/ODNI-UAP-PR60.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_Serial_449.pdf",
     "video_url": null,
     "tags": [
       "odni",
@@ -2182,7 +2182,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100060/uap",
+    "video_url": "/media/DOD_111689057.mp4",
     "tags": [
       "doe",
       "2011",
@@ -2217,7 +2217,7 @@
     "lng": 140,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USAF-UAP-PR62.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/65_HS1-834228961_62-HQ-83894_SUB_A.pdf",
     "video_url": null,
     "tags": [
       "usaf",
@@ -2253,7 +2253,7 @@
     "lng": 38.9968,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USN-UAP-PR63.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOS-UAP-D1-Cable-1-Papua-New-Guinea-January-1985.pdf",
     "video_url": null,
     "tags": [
       "usn",
@@ -2288,7 +2288,7 @@
     "lat": 35,
     "lng": 18,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/NASA-UAP-VM1-Apollo-12-1969.jpg",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -2325,7 +2325,7 @@
     "lng": -114.742,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/FBI-UAP-PR65.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOS-UAP-D2-Cable-2-Kazakhstan-January-1994.pdf",
     "video_url": null,
     "tags": [
       "fbi",
@@ -2362,7 +2362,7 @@
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/NASA-UAP-PR66.jpg",
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100065/uap",
+    "video_url": "/media/DOD_111689082.mp4",
     "tags": [
       "nasa",
       "2016",
@@ -2398,7 +2398,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689083.mp4",
     "tags": [
       "state",
       "2017",
@@ -2433,7 +2433,7 @@
     "lng": 41,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/ODNI-UAP-PR68.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D10-Mission-Report-Middle-East-May-2022.pdf",
     "video_url": null,
     "tags": [
       "odni",
@@ -2469,7 +2469,7 @@
     "lng": 138.2529,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOE-UAP-PR69.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D12-Mission-Report-Iraq-May-2022.pdf",
     "video_url": null,
     "tags": [
       "doe",
@@ -2505,7 +2505,7 @@
     "lng": -83,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D14-Mission-Report-Iraq-May-2022.pdf",
     "video_url": null,
     "tags": [
       "usaf",
@@ -2542,7 +2542,7 @@
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USN-UAP-PR71.jpg",
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100070/uap",
+    "video_url": "/media/DOD_111689090.mp4",
     "tags": [
       "usn",
       "2021",
@@ -2577,7 +2577,7 @@
     "lng": -84.0483,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR72.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D16-Mission-Report-Syria-July-2022.pdf",
     "video_url": null,
     "tags": [
       "dow",
@@ -2612,7 +2612,7 @@
     "lat": 0,
     "lng": 20,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/NASA-UAP-VM2-Apollo-12-1969.jpg",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -2649,7 +2649,7 @@
     "lng": -100,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/NASA-UAP-PR74.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D18-Mission-Report-Iraq-December-2022.pdf",
     "video_url": null,
     "tags": [
       "nasa",
@@ -2685,7 +2685,7 @@
     "lng": 25,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/STATE-UAP-PR75.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D19-Mission-Report-Syria-February-21-2023.pdf",
     "video_url": null,
     "tags": [
       "state",
@@ -2722,7 +2722,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100075/uap",
+    "video_url": "/media/DOD_111689115.mp4",
     "tags": [
       "odni",
       "1950",
@@ -2757,7 +2757,7 @@
     "lng": 0,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOE-UAP-PR77.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D20-Mission-Report-Iraq-2023.pdf",
     "video_url": null,
     "tags": [
       "doe",
@@ -2793,7 +2793,7 @@
     "lng": 68.7714,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USAF-UAP-PR78.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D23-Mission-Report-United-Arab-Emirates-October-2023.pdf",
     "video_url": null,
     "tags": [
       "usaf",
@@ -2829,7 +2829,7 @@
     "lng": -119,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D25-Mission-Report-Greece-January-2024.pdf",
     "video_url": null,
     "tags": [
       "usn",
@@ -2865,7 +2865,7 @@
     "lng": 21.8243,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR80.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D27-Mission-Report-United-Arab-Emirates-October-2023.pdf",
     "video_url": null,
     "tags": [
       "dow",
@@ -2902,7 +2902,7 @@
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/FBI-62-HQ-83080.jpg",
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100080/uap",
+    "video_url": "/media/DOD_111689123.mp4",
     "tags": [
       "fbi",
       "1955",
@@ -2936,7 +2936,7 @@
     "lat": 34.8021,
     "lng": 38.9968,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/NASA-UAP-VM3-Apollo-12-1969.jpg",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -2973,7 +2973,7 @@
     "lng": 18,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/STATE-UAP-PR83.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D28-Mission-Report-East-China-Sea-2024.pdf",
     "video_url": null,
     "tags": [
       "state",
@@ -3009,7 +3009,7 @@
     "lng": -114.742,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/ODNI-UAP-PR84.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D3-Mission-Report-Arabian-Gulf-2020.pdf",
     "video_url": null,
     "tags": [
       "odni",
@@ -3044,7 +3044,7 @@
     "lat": 33.2232,
     "lng": 43.6793,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/NASA-UAP-VM4-Apollo-12-1969.jpg",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -3082,7 +3082,7 @@
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USAF-UAP-PR86.jpg",
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100085/uap",
+    "video_url": "/media/DOD_111689133.mp4",
     "tags": [
       "usaf",
       "1960",
@@ -3117,7 +3117,7 @@
     "lng": 41,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USN-UAP-PR87.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D32-Mission-Report,-Syria-October-2024.pdf",
     "video_url": null,
     "tags": [
       "usn",
@@ -3154,7 +3154,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689142.mp4",
     "tags": [
       "dow",
       "1962",
@@ -3189,7 +3189,7 @@
     "lng": -83,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/FBI-62-HQ-83088.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D33-Mission-Report-Greece-October-2023.pdf",
     "video_url": null,
     "tags": [
       "fbi",
@@ -3225,7 +3225,7 @@
     "lng": -73,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/NASA-UAP-PR90.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D35-Mission-Report-Greece-October-2023.pdf",
     "video_url": null,
     "tags": [
       "nasa",
@@ -3262,7 +3262,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100090/uap",
+    "video_url": "/media/DOD_111689167.mp4",
     "tags": [
       "state",
       "1965",
@@ -3297,7 +3297,7 @@
     "lng": 20,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/ODNI-UAP-PR92.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D38-Range-Fouler-Debrief-Middle-East-May-2020.pdf",
     "video_url": null,
     "tags": [
       "odni",
@@ -3333,7 +3333,7 @@
     "lng": -100,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOE-UAP-PR93.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D4-Mission-Report-Arabian-Gulf-2020.pdf",
     "video_url": null,
     "tags": [
       "doe",
@@ -3368,7 +3368,7 @@
     "lat": 39,
     "lng": 25,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1517976487492-5750f3195933?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/NASA-UAP-VM5-Apollo-12-1969.jpg",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -3405,7 +3405,7 @@
     "lng": -104.523,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USN-UAP-PR95.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D42-Range-Fouler-Debrief-Japan-2023.pdf",
     "video_url": null,
     "tags": [
       "usn",
@@ -3442,7 +3442,7 @@
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR96.jpg",
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100095/uap",
+    "video_url": "/media/DOD_111689168.mp4",
     "tags": [
       "dow",
       "1970",
@@ -3478,7 +3478,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689232.mp4",
     "tags": [
       "fbi",
       "1971",
@@ -3513,7 +3513,7 @@
     "lng": -119,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/NASA-UAP-PR98.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D44-Range-Fouler-Arabian-Sea-October-2020.pdf",
     "video_url": null,
     "tags": [
       "nasa",
@@ -3549,7 +3549,7 @@
     "lng": 21.8243,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/STATE-UAP-PR99.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D48-Report-September-1996.pdf",
     "video_url": null,
     "tags": [
       "state",
@@ -3585,7 +3585,7 @@
     "lng": 140,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D49-Launch-Summary-February-2000.pdf",
     "video_url": null,
     "tags": [
       "odni",
@@ -3622,7 +3622,7 @@
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOE-UAP-PR101.jpg",
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100100/uap",
+    "video_url": "/media/DOD_111689759.mp4",
     "tags": [
       "doe",
       "1975",
@@ -3657,7 +3657,7 @@
     "lng": 18,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USAF-UAP-PR102.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D5-Mission-Report-Arabian-Gulf-2020.pdf",
     "video_url": null,
     "tags": [
       "usaf",
@@ -3692,7 +3692,7 @@
     "lat": 44.0682,
     "lng": -114.742,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/NASA-UAP-VM6-Apollo-17-1972.jpg",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -3729,7 +3729,7 @@
     "lng": 43.6793,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR104.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D50-Email-Correspondence-INDOPACOM-April-2025.pdf",
     "video_url": null,
     "tags": [
       "dow",
@@ -3765,7 +3765,7 @@
     "lng": 54.3773,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/FBI-UAP-PR105.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D51-Email-Correspondence-Pacific-Time-Zone-March-2023.pdf",
     "video_url": null,
     "tags": [
       "fbi",
@@ -3802,7 +3802,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100105/uap",
+    "video_url": "/media/DOD_111688723.mp4",
     "tags": [
       "nasa",
       "1980",
@@ -3837,7 +3837,7 @@
     "lng": 138.2529,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/STATE-UAP-PR107.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D52-Email-Correspondance-NA-August-2024.pdf",
     "video_url": null,
     "tags": [
       "state",
@@ -3873,7 +3873,7 @@
     "lng": -83,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/ODNI-UAP-PR108.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D54-Mission-Report-Mediterranean-Sea-NA.pdf",
     "video_url": null,
     "tags": [
       "odni",
@@ -3909,7 +3909,7 @@
     "lng": -73,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D55-Mission-Report-Syria-November-2016.pdf",
     "video_url": null,
     "tags": [
       "doe",
@@ -3945,7 +3945,7 @@
     "lng": -84.0483,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USAF-UAP-PR110.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D56-Range-Fouler-Debrief-Arabian-Sea-August-2020.pdf",
     "video_url": null,
     "tags": [
       "usaf",
@@ -3982,7 +3982,7 @@
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USN-UAP-PR111.jpg",
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100110/uap",
+    "video_url": "/media/DOD_111688762.mp4",
     "tags": [
       "usn",
       "1985",
@@ -4016,7 +4016,7 @@
     "lat": 40,
     "lng": -100,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1473968512647-3e447244af8f?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/FBI-Photo-A1.png",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -4053,7 +4053,7 @@
     "lng": 25,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/FBI-UAP-PR113.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D57-Mission-Report-Gulf-of-Aden-September-2020.pdf",
     "video_url": null,
     "tags": [
       "fbi",
@@ -4089,7 +4089,7 @@
     "lng": -104.523,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/NASA-UAP-PR114.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D58-Range-Fouler-Debrief-NA-October-2020.pdf",
     "video_url": null,
     "tags": [
       "nasa",
@@ -4124,7 +4124,7 @@
     "lat": 0,
     "lng": 0,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/FBI-Photo-A2.png",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -4162,7 +4162,7 @@
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/ODNI-UAP-PR116.jpg",
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100115/uap",
+    "video_url": "/media/DOD_111688775.mp4",
     "tags": [
       "odni",
       "1990",
@@ -4197,7 +4197,7 @@
     "lng": -119,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOE-UAP-PR117.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D6-Mission-Report-Arabian-Gulf-2020.pdf",
     "video_url": null,
     "tags": [
       "doe",
@@ -4234,7 +4234,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688809.mp4",
     "tags": [
       "usaf",
       "1992",
@@ -4269,7 +4269,7 @@
     "lng": 140,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USN-UAP-PR119.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D60-Mission-Report-Persian-Gulf-August-2020.pdf",
     "video_url": null,
     "tags": [
       "usn",
@@ -4305,7 +4305,7 @@
     "lng": 38.9968,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR120.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D61-Mission-Report-Persian-Gulf-August-2020.pdf",
     "video_url": null,
     "tags": [
       "dow",
@@ -4342,7 +4342,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100120/uap",
+    "video_url": "/media/DOD_111688816.mp4",
     "tags": [
       "fbi",
       "1995",
@@ -4377,7 +4377,7 @@
     "lng": -114.742,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/NASA-UAP-PR122.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D62-Mission-Report-Strait-of-Hormuz-September-2020.pdf",
     "video_url": null,
     "tags": [
       "nasa",
@@ -4413,7 +4413,7 @@
     "lng": 43.6793,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/STATE-UAP-PR123.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D63-Mission-Report-Strait-of-Hormuz-October-2020.pdf",
     "video_url": null,
     "tags": [
       "state",
@@ -4448,7 +4448,7 @@
     "lat": 24.4539,
     "lng": 54.3773,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1533473359331-0135ef1b58bf?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/FBI-Photo-A3.png",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -4485,7 +4485,7 @@
     "lng": 41,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOE-UAP-PR125.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D64-Mission-Report-Iran-November-2020.pdf",
     "video_url": null,
     "tags": [
       "doe",
@@ -4522,7 +4522,7 @@
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USAF-UAP-PR126.jpg",
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100125/uap",
+    "video_url": "/media/DOD_111688825.mp4",
     "tags": [
       "usaf",
       "2000",
@@ -4558,7 +4558,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111688954.mp4",
     "tags": [
       "usn",
       "2001",
@@ -4593,7 +4593,7 @@
     "lng": -73,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR128.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D65-Mission-Report-Persian-Gulf-July-2020.pdf",
     "video_url": null,
     "tags": [
       "dow",
@@ -4629,7 +4629,7 @@
     "lng": -84.0483,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/FBI-UAP-PR129.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D7-Mission-Report-Arabian-Gulf-2020.pdf",
     "video_url": null,
     "tags": [
       "fbi",
@@ -4665,7 +4665,7 @@
     "lng": 20,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/DOW-UAP-D74-Mission-Report-Syria-November-2023.pdf",
     "video_url": null,
     "tags": [
       "nasa",
@@ -4702,7 +4702,7 @@
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/STATE-UAP-PR131.jpg",
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100130/uap",
+    "video_url": "/media/DOD_111688964.mp4",
     "tags": [
       "state",
       "2005",
@@ -4737,7 +4737,7 @@
     "lng": 25,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/ODNI-UAP-PR132.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D75-Mission-Report-Gulf-of-Aden-July-2024.pdf",
     "video_url": null,
     "tags": [
       "odni",
@@ -4772,7 +4772,7 @@
     "lat": 33.3943,
     "lng": -104.523,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1517976487492-5750f3195933?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/FBI-Photo-A4.png",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -4809,7 +4809,7 @@
     "lng": 0,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USAF-UAP-PR134.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-D8-Mission-Report-Djibouti-2025.pdf",
     "video_url": null,
     "tags": [
       "usaf",
@@ -4845,7 +4845,7 @@
     "lng": 68.7714,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USN-UAP-PR135.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/DOW-UAP-PR20.pdf",
     "video_url": null,
     "tags": [
       "usn",
@@ -4882,7 +4882,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100135/uap",
+    "video_url": "/media/DOD_111688970.mp4",
     "tags": [
       "dow",
       "2010",
@@ -4917,7 +4917,7 @@
     "lng": 21.8243,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/FBI-UAP-PR137.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/FBI-Photo-B1.pdf",
     "video_url": null,
     "tags": [
       "fbi",
@@ -4953,7 +4953,7 @@
     "lng": 140,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/NASA-UAP-PR138.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/FBI-Photo-B10.pdf",
     "video_url": null,
     "tags": [
       "nasa",
@@ -4989,7 +4989,7 @@
     "lng": 38.9968,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Oct/17/2003323067/-1/-1/0/UAP-HST-1.PDF",
+    "pdf_url": "/release/Release_1/FBI-Photo-B11.pdf",
     "video_url": null,
     "tags": [
       "state",
@@ -5025,7 +5025,7 @@
     "lng": 18,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/ODNI-UAP-PR140.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/FBI-Photo-B12.pdf",
     "video_url": null,
     "tags": [
       "odni",
@@ -5062,7 +5062,7 @@
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOE-UAP-PR141.jpg",
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100140/uap",
+    "video_url": "/media/DOD_111688997.mp4",
     "tags": [
       "doe",
       "2015",
@@ -5096,7 +5096,7 @@
     "lat": 33.2232,
     "lng": 43.6793,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1588668214407-6ea9a6d8c272?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/FBI-Photo-A5.png",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -5133,7 +5133,7 @@
     "lng": 54.3773,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USN-UAP-PR143.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/FBI-Photo-B13.pdf",
     "video_url": null,
     "tags": [
       "usn",
@@ -5169,7 +5169,7 @@
     "lng": 41,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR144.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/FBI-Photo-B14.pdf",
     "video_url": null,
     "tags": [
       "dow",
@@ -5204,7 +5204,7 @@
     "lat": 36.2048,
     "lng": 138.2529,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/FBI-Photo-A6.png",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -5242,7 +5242,7 @@
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/NASA-UAP-PR146.jpg",
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100145/uap",
+    "video_url": "/media/DOD_111689005.mp4",
     "tags": [
       "nasa",
       "2020",
@@ -5277,7 +5277,7 @@
     "lng": -73,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/STATE-UAP-PR147.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/FBI-Photo-B15.pdf",
     "video_url": null,
     "tags": [
       "state",
@@ -5314,7 +5314,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/6rWOtrke0HY/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/6rWOtrke0HY?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689011.mp4",
     "tags": [
       "odni",
       "2022",
@@ -5349,7 +5349,7 @@
     "lng": 20,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOE-UAP-PR149.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/FBI-Photo-B16.pdf",
     "video_url": null,
     "tags": [
       "doe",
@@ -5385,7 +5385,7 @@
     "lng": -100,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USAF-UAP-PR150.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/FBI-Photo-B17.pdf",
     "video_url": null,
     "tags": [
       "usaf",
@@ -5422,7 +5422,7 @@
     "original_url": null,
     "thumbnail_url": null,
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100150/uap",
+    "video_url": "/media/DOD_111689022.mp4",
     "tags": [
       "usn",
       "2025",
@@ -5457,7 +5457,7 @@
     "lng": -104.523,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/DOW-UAP-PR152.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/FBI-Photo-B18.pdf",
     "video_url": null,
     "tags": [
       "dow",
@@ -5493,7 +5493,7 @@
     "lng": 0,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/FBI-62-HQ-83152.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/FBI-Photo-B19.pdf",
     "video_url": null,
     "tags": [
       "fbi",
@@ -5528,7 +5528,7 @@
     "lat": 39.7945,
     "lng": 68.7714,
     "original_url": null,
-    "thumbnail_url": "https://images.unsplash.com/photo-1534447677768-be436bb09401?q=80&w=800&auto=format&fit=crop",
+    "thumbnail_url": "/release/Release_1/FBI-Photo-A7.png",
     "pdf_url": null,
     "video_url": null,
     "tags": [
@@ -5565,7 +5565,7 @@
     "lng": -119,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/STATE-UAP-PR155.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/FBI-Photo-B2.pdf",
     "video_url": null,
     "tags": [
       "state",
@@ -5602,7 +5602,7 @@
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/ODNI-UAP-PR156.jpg",
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100155/uap",
+    "video_url": "/media/DOD_111689030.mp4",
     "tags": [
       "odni",
       "1954",
@@ -5638,7 +5638,7 @@
     "original_url": null,
     "thumbnail_url": "https://img.youtube.com/vi/wxVRg7LLaQA/hqdefault.jpg",
     "pdf_url": null,
-    "video_url": "https://www.youtube.com/embed/wxVRg7LLaQA?autoplay=1&mute=1&rel=0",
+    "video_url": "/media/DOD_111689044.mp4",
     "tags": [
       "doe",
       "1955",
@@ -5673,7 +5673,7 @@
     "lng": 38.9968,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USAF-UAP-PR158.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/FBI-Photo-B20.pdf",
     "video_url": null,
     "tags": [
       "usaf",
@@ -5709,7 +5709,7 @@
     "lng": 18,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/USN-UAP-PR159.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/FBI-Photo-B21.pdf",
     "video_url": null,
     "tags": [
       "usn",
@@ -5745,7 +5745,7 @@
     "lng": -114.742,
     "original_url": null,
     "thumbnail_url": null,
-    "pdf_url": "https://media.defense.gov/2023/Aug/31/2003293155/-1/-1/0/UAP-HST-2.PDF",
+    "pdf_url": "/release/Release_1/FBI-Photo-B22.pdf",
     "video_url": null,
     "tags": [
       "dow",
@@ -5782,7 +5782,7 @@
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/FBI-62-HQ-83160.jpg",
     "pdf_url": null,
-    "video_url": "https://www.dvidshub.net/video/100160/uap",
+    "video_url": "/media/DOD_111689051.mp4",
     "tags": [
       "fbi",
       "1959",
@@ -5817,7 +5817,7 @@
     "lng": 54.3773,
     "original_url": null,
     "thumbnail_url": "https://www.war.gov/portals/1/Interactive/2026/UFO/Slideshow/NASA-UAP-PR162.jpg",
-    "pdf_url": null,
+    "pdf_url": "/release/Release_1/FBI-Photo-B23.pdf",
     "video_url": null,
     "tags": [
       "nasa",
