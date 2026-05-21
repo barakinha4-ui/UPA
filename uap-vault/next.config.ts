@@ -14,14 +14,6 @@ const nextConfig: NextConfig = {
     ],
     unoptimized: true,
   },
-  async rewrites() {
-    return [
-      {
-        source: '/api/proxy-war/:path*',
-        destination: 'https://www.war.gov/:path*',
-      },
-    ];
-  },
 };
 
 export default withNextIntl(nextConfig);
