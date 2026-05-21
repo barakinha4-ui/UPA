@@ -161,7 +161,7 @@ export default async function HomePage({
                       BATCH RELEASE 0{release.release_num}
                     </span>
                     <span className="font-mono text-[10px] text-[#e8e8e0]/40">
-                      {formatDate(release.released_at, locale as 'pt' | 'en')}
+                      {release.doc_count === 0 ? (locale === 'pt' ? 'Em breve' : 'Pending') : formatDate(release.released_at, locale as 'pt' | 'en')}
                     </span>
                   </div>
                   <h3 className="font-serif text-lg font-bold text-[#e8e8e0] mb-2">
@@ -169,7 +169,10 @@ export default async function HomePage({
                   </h3>
                   <div className="flex flex-col sm:flex-row items-stretch sm:items-center justify-between gap-4 mt-4 pt-4 border-t border-[#c8a96e]/5 font-mono text-[10px]">
                     <span className="text-[#e8e8e0]/50 uppercase">
-                      Documents Ingested: <strong className="text-[#e8e8e0]">{release.doc_count} cases</strong>
+                      {release.doc_count === 0 
+                        ? (locale === 'pt' ? 'Status: Em revisão pelo AARO' : 'Status: Under review by AARO')
+                        : <>Documents Ingested: <strong className="text-[#e8e8e0]">{release.doc_count} cases</strong></>
+                      }
                     </span>
                     {release.source_url && (
                       <a

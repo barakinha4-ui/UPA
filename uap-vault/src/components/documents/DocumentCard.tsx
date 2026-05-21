@@ -20,6 +20,8 @@ export const AGENCY_COLORS = {
   ODNI: { text: 'text-purple-400', border: 'border-purple-400/30', bg: 'bg-purple-950/20' },
   STATE: { text: 'text-emerald-400', border: 'border-emerald-400/30', bg: 'bg-emerald-950/20' },
   DOE: { text: 'text-orange-400', border: 'border-orange-400/30', bg: 'bg-orange-950/20' },
+  USAF: { text: 'text-sky-400', border: 'border-sky-400/30', bg: 'bg-sky-950/20' },
+  USN: { text: 'text-indigo-400', border: 'border-indigo-400/30', bg: 'bg-indigo-950/20' },
   OTHER: { text: 'text-gray-400', border: 'border-gray-400/30', bg: 'bg-gray-950/20' },
 };
 
@@ -99,8 +101,16 @@ export default function DocumentCard({ doc, locale }: DocumentCardProps) {
             {t(doc.classification)}
           </span>
           <span className="flex items-center space-x-1 text-[#e8e8e0]/40">
-            <Eye className="h-3.5 w-3.5" />
-            <span>{doc.view_count || 0}</span>
+            {doc.view_count > 0 ? (
+              <>
+                <Eye className="h-3.5 w-3.5" />
+                <span>{doc.view_count}</span>
+              </>
+            ) : (
+              <span className="text-[9px] text-[#c8a96e] border border-[#c8a96e]/30 bg-[#c8a96e]/10 px-1.5 py-0.5 rounded font-bold uppercase tracking-widest">
+                {locale === 'pt' ? 'NOVO' : 'NEW'}
+              </span>
+            )}
           </span>
         </div>
 

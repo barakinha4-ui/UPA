@@ -6,7 +6,7 @@ import { useTranslations } from 'next-intl';
 import { SlidersHorizontal, ArrowUpDown, RefreshCw, ChevronDown } from 'lucide-react';
 import { useState } from 'react';
 
-const AGENCIES = ['DOW', 'FBI', 'NASA', 'STATE', 'CIA', 'ODNI', 'DOE', 'OTHER'];
+const AGENCIES = ['DOW', 'FBI', 'NASA', 'STATE', 'ODNI', 'DOE', 'USAF', 'USN', 'CIA', 'OTHER'];
 const MEDIA_TYPES = ['video', 'pdf', 'image', 'document', 'mixed'];
 const CLASSIFICATIONS = ['unresolved', 'resolved_natural', 'resolved_manmade', 'unknown'];
 
